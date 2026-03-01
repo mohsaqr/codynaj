@@ -5,7 +5,7 @@ import type {
   RawPatterns,
 } from '../core/types';
 import { prepareSequenceData } from '../core/prepare';
-import { chiSqPValue } from 'carm';
+import { chiSqUpperTail } from '../core/stats';
 
 // ── Extraction engines ────────────────────────────────────────────────
 
@@ -326,7 +326,7 @@ function chisqTest(
       chi2 += (diff * diff) / expected;
     }
     statistic[i] = chi2;
-    pValue[i] = chiSqPValue(chi2, df);
+    pValue[i] = chiSqUpperTail(chi2, df);
   }
 
   return { statistic, pValue };

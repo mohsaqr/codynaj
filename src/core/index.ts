@@ -20,3 +20,4 @@ export type {
 
 export { prepareSequenceData, rle, extractLast } from './prepare';
 export { convert } from './convert';
+export { chiSqUpperTail } from './stats';
