@@ -56,12 +56,15 @@ describe('rle', () => {
     expect(result.lengths).toEqual([2, 3, 1, 1]);
   });
 
-  it('handles NaN runs', () => {
+  it('handles NaN values (each NaN is own run, matching R)', () => {
     const result = rle([1, NaN, NaN, 2]);
+    // R: rle(c(1, NA, NA, 2)) → values: 1, NA, NA, 2; lengths: 1, 1, 1, 1
+    expect(result.values.length).toBe(4);
     expect(result.values[0]).toBe(1);
     expect(isNaN(result.values[1]!)).toBe(true);
-    expect(result.values[2]).toBe(2);
-    expect(result.lengths).toEqual([1, 2, 1]);
+    expect(isNaN(result.values[2]!)).toBe(true);
+    expect(result.values[3]).toBe(2);
+    expect(result.lengths).toEqual([1, 1, 1, 1]);
   });
 
   it('handles empty array', () => {

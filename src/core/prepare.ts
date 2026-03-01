@@ -44,8 +44,8 @@ export function prepareSequenceData(data: (string | null | undefined)[][]): Sequ
 }
 
 /**
- * Run-length encoding with NaN handling.
- * NaN values get their own runs but are preserved as NaN in values.
+ * Run-length encoding matching R's rle() behavior.
+ * Each NaN is its own run (since NaN !== NaN, like R's NA != NA → NA).
  */
 export function rle(arr: number[]): RLEResult {
   if (arr.length === 0) return { values: [], lengths: [] };
@@ -57,8 +57,8 @@ export function rle(arr: number[]): RLEResult {
 
   for (let i = 1; i < arr.length; i++) {
     const v = arr[i]!;
-    // Both NaN → same run; both equal → same run; otherwise new run
-    const same = (isNaN(current) && isNaN(v)) || (current === v);
+    // NaN never equals anything (matches R: NA != NA → NA, treated as FALSE)
+    const same = current === v; // NaN === NaN is false in JS
     if (same) {
       len++;
     } else {
