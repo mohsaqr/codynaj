@@ -229,6 +229,110 @@ ref$pat_d8_ng3 <- as.data.frame(discover_patterns(d8, type = "ngram", len = 3, m
 ref$pat_d8_gp1 <- as.data.frame(discover_patterns(d8, type = "gapped", gap = 1, min_freq = 1, min_support = 0))
 ref$pat_d8_rp2 <- as.data.frame(discover_patterns(d8, type = "repeated", len = 2, min_freq = 1, min_support = 0))
 
+# ── Patterns on every other dataset ───────────────────────────────────
+
+# D1 (5×8, 3 states, NAs)
+ref$pat_d1_ng2 <- as.data.frame(discover_patterns(d1, type = "ngram", len = 2, min_freq = 1, min_support = 0))
+ref$pat_d1_ng3 <- as.data.frame(discover_patterns(d1, type = "ngram", len = 3, min_freq = 1, min_support = 0))
+ref$pat_d1_ng25 <- as.data.frame(discover_patterns(d1, type = "ngram", len = 2:5, min_freq = 1, min_support = 0))
+ref$pat_d1_gp1 <- as.data.frame(discover_patterns(d1, type = "gapped", gap = 1, min_freq = 1, min_support = 0))
+ref$pat_d1_gp13 <- as.data.frame(discover_patterns(d1, type = "gapped", gap = 1:3, min_freq = 1, min_support = 0))
+ref$pat_d1_rp2 <- as.data.frame(discover_patterns(d1, type = "repeated", len = 2, min_freq = 1, min_support = 0))
+ref$pat_d1_rp24 <- as.data.frame(discover_patterns(d1, type = "repeated", len = 2:4, min_freq = 1, min_support = 0))
+
+# D2 (20×10, 3 states, NAs)
+ref$pat_d2_ng2 <- as.data.frame(discover_patterns(d2, type = "ngram", len = 2, min_freq = 1, min_support = 0))
+ref$pat_d2_ng3 <- as.data.frame(discover_patterns(d2, type = "ngram", len = 3, min_freq = 1, min_support = 0))
+ref$pat_d2_ng4 <- as.data.frame(discover_patterns(d2, type = "ngram", len = 4, min_freq = 1, min_support = 0))
+ref$pat_d2_gp12 <- as.data.frame(discover_patterns(d2, type = "gapped", gap = 1:2, min_freq = 1, min_support = 0))
+ref$pat_d2_rp23 <- as.data.frame(discover_patterns(d2, type = "repeated", len = 2:3, min_freq = 1, min_support = 0))
+
+# D3 (15×12, 5 states)
+ref$pat_d3_ng2 <- as.data.frame(discover_patterns(d3, type = "ngram", len = 2, min_freq = 1, min_support = 0))
+ref$pat_d3_ng3 <- as.data.frame(discover_patterns(d3, type = "ngram", len = 3, min_freq = 1, min_support = 0))
+ref$pat_d3_ng4 <- as.data.frame(discover_patterns(d3, type = "ngram", len = 4, min_freq = 1, min_support = 0))
+ref$pat_d3_gp12 <- as.data.frame(discover_patterns(d3, type = "gapped", gap = 1:2, min_freq = 1, min_support = 0))
+ref$pat_d3_rp23 <- as.data.frame(discover_patterns(d3, type = "repeated", len = 2:3, min_freq = 1, min_support = 0))
+
+# D4 (10×6, 2 states)
+ref$pat_d4_ng2 <- as.data.frame(discover_patterns(d4, type = "ngram", len = 2, min_freq = 1, min_support = 0))
+ref$pat_d4_ng3 <- as.data.frame(discover_patterns(d4, type = "ngram", len = 3, min_freq = 1, min_support = 0))
+ref$pat_d4_ng4 <- as.data.frame(discover_patterns(d4, type = "ngram", len = 4, min_freq = 1, min_support = 0))
+ref$pat_d4_gp12 <- as.data.frame(discover_patterns(d4, type = "gapped", gap = 1:2, min_freq = 1, min_support = 0))
+ref$pat_d4_rp24 <- as.data.frame(discover_patterns(d4, type = "repeated", len = 2:4, min_freq = 1, min_support = 0))
+
+# D5 (8×10, heavy NAs)
+ref$pat_d5_ng2 <- as.data.frame(discover_patterns(d5, type = "ngram", len = 2, min_freq = 1, min_support = 0))
+ref$pat_d5_ng3 <- as.data.frame(discover_patterns(d5, type = "ngram", len = 3, min_freq = 1, min_support = 0))
+ref$pat_d5_gp1 <- as.data.frame(discover_patterns(d5, type = "gapped", gap = 1, min_freq = 1, min_support = 0))
+ref$pat_d5_rp2 <- as.data.frame(discover_patterns(d5, type = "repeated", len = 2, min_freq = 1, min_support = 0))
+
+# D6 (6×15, emergent-triggering)
+ref$pat_d6_ng2 <- as.data.frame(discover_patterns(d6, type = "ngram", len = 2, min_freq = 1, min_support = 0))
+ref$pat_d6_ng3 <- as.data.frame(discover_patterns(d6, type = "ngram", len = 3, min_freq = 1, min_support = 0))
+ref$pat_d6_ng5 <- as.data.frame(discover_patterns(d6, type = "ngram", len = 5, min_freq = 1, min_support = 0))
+ref$pat_d6_gp13 <- as.data.frame(discover_patterns(d6, type = "gapped", gap = 1:3, min_freq = 1, min_support = 0))
+ref$pat_d6_rp25 <- as.data.frame(discover_patterns(d6, type = "repeated", len = 2:5, min_freq = 1, min_support = 0))
+
+# D7 (4×6, constant sequences)
+ref$pat_d7_ng2 <- as.data.frame(discover_patterns(d7, type = "ngram", len = 2, min_freq = 1, min_support = 0))
+ref$pat_d7_rp26 <- as.data.frame(discover_patterns(d7, type = "repeated", len = 2:6, min_freq = 1, min_support = 0))
+
+# ── More custom pattern searches ──────────────────────────────────────
+
+# On pd
+ref$pat_custom_CwwwA <- as.data.frame(discover_patterns(pd, pattern = "C->*->*->*->A", min_freq = 1, min_support = 0))
+ref$pat_custom_AwBwC <- as.data.frame(discover_patterns(pd, pattern = "A->*->B->*->C", min_freq = 1, min_support = 0))
+
+# On d6 (longer sequences, more wildcard positions)
+ref$pat_d6_custom_AwA <- as.data.frame(discover_patterns(d6, pattern = "A->*->A", min_freq = 1, min_support = 0))
+ref$pat_d6_custom_BwwB <- as.data.frame(discover_patterns(d6, pattern = "B->*->*->B", min_freq = 1, min_support = 0))
+ref$pat_d6_custom_AwwwC <- as.data.frame(discover_patterns(d6, pattern = "A->*->*->*->C", min_freq = 1, min_support = 0))
+ref$pat_d6_custom_CwwA <- as.data.frame(discover_patterns(d6, pattern = "C->*->*->A", min_freq = 1, min_support = 0))
+
+# On d3 (5-state)
+ref$pat_d3_custom_HwW <- as.data.frame(discover_patterns(d3, pattern = "High->*->Work", min_freq = 1, min_support = 0))
+ref$pat_d3_custom_LwwH <- as.data.frame(discover_patterns(d3, pattern = "Low->*->*->High", min_freq = 1, min_support = 0))
+
+# On d4 (binary)
+ref$pat_d4_custom_OnwOff <- as.data.frame(discover_patterns(d4, pattern = "On->*->Off", min_freq = 1, min_support = 0))
+
+# ── Combined filters ──────────────────────────────────────────────────
+
+ref$pat_startA_endC <- as.data.frame(discover_patterns(pd, type = "ngram", len = 3, min_freq = 1, min_support = 0, start = "A", end = "C"))
+ref$pat_containAB <- as.data.frame(discover_patterns(pd, type = "ngram", len = 3, min_freq = 1, min_support = 0, contain = c("A", "B")))
+ref$pat_startB_containC <- as.data.frame(discover_patterns(pd, type = "ngram", len = 3, min_freq = 1, min_support = 0, start = "B", contain = "C"))
+ref$pat_d3_startHigh <- as.data.frame(discover_patterns(d3, type = "ngram", len = 2, min_freq = 1, min_support = 0, start = "High"))
+ref$pat_d3_endWork <- as.data.frame(discover_patterns(d3, type = "ngram", len = 2, min_freq = 1, min_support = 0, end = "Work"))
+ref$pat_d8_startP_endS <- as.data.frame(discover_patterns(d8, type = "ngram", len = 3, min_freq = 1, min_support = 0, start = "P", end = "S"))
+ref$pat_d8_mf3_ms01 <- as.data.frame(discover_patterns(d8, type = "ngram", len = 2, min_freq = 3, min_support = 0.1))
+
+# ── Grouped patterns on more datasets ─────────────────────────────────
+
+# D1 grouped (5 rows)
+grp_d1 <- c("G1","G2","G1","G2","G1")
+ref$pat_grp_d1 <- as.data.frame(discover_patterns(d1, type = "ngram", len = 2, min_freq = 1, min_support = 0, group = grp_d1))
+
+# D2 grouped (20 rows)
+grp_d2 <- rep(c("Alpha","Beta"), 10)
+ref$pat_grp_d2 <- as.data.frame(discover_patterns(d2, type = "ngram", len = 2, min_freq = 1, min_support = 0, group = grp_d2))
+
+# D3 grouped (15 rows, 3 groups)
+grp_d3 <- rep(c("X","Y","Z"), 5)
+ref$pat_grp_d3 <- as.data.frame(discover_patterns(d3, type = "ngram", len = 2, min_freq = 1, min_support = 0, group = grp_d3))
+
+# D6 grouped (6 rows)
+grp_d6 <- c("A","B","A","B","A","B")
+ref$pat_grp_d6 <- as.data.frame(discover_patterns(d6, type = "ngram", len = 2, min_freq = 1, min_support = 0, group = grp_d6))
+
+# D8 grouped with gapped (grp3 defined below in grouped section)
+grp3_early <- rep(c("Lo","Mi","Hi"), 10)
+ref$pat_grp_d8_gp1 <- as.data.frame(discover_patterns(d8, type = "gapped", gap = 1, min_freq = 1, min_support = 0, group = grp3_early))
+
+# D4 grouped
+grp_d4 <- rep(c("Hi","Lo"), 5)
+ref$pat_grp_d4 <- as.data.frame(discover_patterns(d4, type = "ngram", len = 2:3, min_freq = 1, min_support = 0, group = grp_d4))
+
 # ══════════════════════════════════════════════════════════════════════
 # 4. PATTERNS WITH GROUPING — chi-squared
 # ══════════════════════════════════════════════════════════════════════
@@ -323,7 +427,12 @@ ref$groups <- list(
   grp2 = grp2,
   grp3 = grp3,
   grp_unbal = grp_unbal,
-  outcome = outcome
+  outcome = outcome,
+  grp_d1 = grp_d1,
+  grp_d2 = grp_d2,
+  grp_d3 = grp_d3,
+  grp_d6 = grp_d6,
+  grp_d4 = grp_d4
 )
 
 # ══════════════════════════════════════════════════════════════════════

@@ -7474,6 +7474,8181 @@
       "lift": 0.3061224489795918
     }
   ],
+  "pat_d1_ng2": [
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.2258064516129032,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "A->B",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1290322580645161,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.7499999999999999
+    },
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1290322580645161,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "B->A",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1290322580645161,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.7499999999999999
+    },
+    {
+      "pattern": "C->A",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->C",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->C",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "C->B",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.06451612903225806,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    }
+  ],
+  "pat_d1_ng3": [
+    {
+      "pattern": "A->A->A",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.1153846153846154,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "B->B->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.7812499999999999
+    },
+    {
+      "pattern": "B->C->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "B->A->C",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "B->B->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "C->A->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->C->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "B->A->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "A->B->C",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->B->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "C->A->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "A->A->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "A->B->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "C->B->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->A->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "A->C->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    }
+  ],
+  "pat_d1_ng25": [
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.2258064516129032,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "A->B",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1290322580645161,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.7499999999999999
+    },
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1290322580645161,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "B->A",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1290322580645161,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.7499999999999999
+    },
+    {
+      "pattern": "C->A",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->C",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->C",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "A->A->A",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.1153846153846154,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "C->B",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.06451612903225806,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "B->B->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.7812499999999999
+    },
+    {
+      "pattern": "B->C->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "B->A->C",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "B->B->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "C->A->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->C->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "B->A->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "A->B->C",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "B->B->B->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.09523809523809523,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.7812499999999999
+    },
+    {
+      "pattern": "A->A->A->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.09523809523809523,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "B->C->A->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.09523809523809523,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "B->A->C->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.09523809523809523,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "B->B->A->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.09523809523809523,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "C->A->B->C",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.09523809523809523,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "B->B->B->A->A",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.125,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.7812499999999999
+    },
+    {
+      "pattern": "B->C->A->B->C",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.125,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.4882812499999999
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->B->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "C->A->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "A->A->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "A->B->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "C->B->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->A->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "A->C->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03846153846153846,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->B->A->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "C->A->A->B",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->A->B->B",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->C->B->A",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "B->A->A->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->B->B->B",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "A->B->C->A",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "C->B->A->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "A->A->C->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->B->A->C->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "C->A->A->B->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "A->A->A->A->A",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "B->A->C->B->A",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "B->B->A->A->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "A->A->B->B->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "C->A->B->C->A",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "A->C->B->A->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "B->A->A->C->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "A->B->B->B->A",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "A->B->C->A->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3906249999999999
+    },
+    {
+      "pattern": "C->B->A->C->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.4882812499999999
+    }
+  ],
+  "pat_d1_gp1": [
+    {
+      "pattern": "B->*->A",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.2307692307692308,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.7499999999999999
+    },
+    {
+      "pattern": "A->*->A",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1538461538461539,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "A->*->B",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1538461538461539,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "A->*->C",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1538461538461539,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->*->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "C->*->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->*->C",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "C->*->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    }
+  ],
+  "pat_d1_gp13": [
+    {
+      "pattern": "B->*->A",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.2307692307692308,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.7499999999999999
+    },
+    {
+      "pattern": "A->*->A",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1538461538461539,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "A->*->B",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1538461538461539,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "A->*->C",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1538461538461539,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->**->A",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.1904761904761905,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "A->**->A",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.1904761904761905,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "B->**->B",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.1904761904761905,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "B->***->C",
+      "length": 5,
+      "frequency": 4,
+      "proportion": 0.25,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "C->**->C",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.1428571428571428,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "A->***->B",
+      "length": 5,
+      "frequency": 3,
+      "proportion": 0.1875,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.7499999999999999
+    },
+    {
+      "pattern": "B->***->A",
+      "length": 5,
+      "frequency": 3,
+      "proportion": 0.1875,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.7499999999999999
+    },
+    {
+      "pattern": "B->*->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "C->*->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->*->C",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "C->*->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.07692307692307693,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->**->C",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.09523809523809523,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "A->**->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.09523809523809523,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "C->***->B",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.125,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "A->***->A",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.125,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "C->**->B",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "B->**->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.04761904761904762,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "C->***->A",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "A->***->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.0625,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.25
+    }
+  ],
+  "pat_d1_rp2": [
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.5833333333333334,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.3333333333333333,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 1,
+      "proportion": 0.08333333333333333,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    }
+  ],
+  "pat_d1_rp24": [
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.5833333333333334,
+      "count": 3,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.3333333333333333,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "A->A->A",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.6,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "B->B->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.4,
+      "count": 2,
+      "support": 0.4,
+      "lift": 0.7812499999999999
+    },
+    {
+      "pattern": "A->A->A->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 1,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 1,
+      "proportion": 0.08333333333333333,
+      "count": 1,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    }
+  ],
+  "pat_d2_ng2": [
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 31,
+      "proportion": 0.1856287425149701,
+      "count": 13,
+      "support": 0.65,
+      "lift": 0.65
+    },
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 24,
+      "proportion": 0.1437125748502994,
+      "count": 11,
+      "support": 0.55,
+      "lift": 0.55
+    },
+    {
+      "pattern": "B->A",
+      "length": 2,
+      "frequency": 22,
+      "proportion": 0.1317365269461078,
+      "count": 15,
+      "support": 0.75,
+      "lift": 0.75
+    },
+    {
+      "pattern": "A->B",
+      "length": 2,
+      "frequency": 20,
+      "proportion": 0.1197604790419162,
+      "count": 16,
+      "support": 0.8,
+      "lift": 0.8
+    },
+    {
+      "pattern": "C->B",
+      "length": 2,
+      "frequency": 18,
+      "proportion": 0.1077844311377246,
+      "count": 14,
+      "support": 0.7,
+      "lift": 0.7
+    },
+    {
+      "pattern": "A->C",
+      "length": 2,
+      "frequency": 17,
+      "proportion": 0.1017964071856287,
+      "count": 15,
+      "support": 0.75,
+      "lift": 0.75
+    },
+    {
+      "pattern": "B->C",
+      "length": 2,
+      "frequency": 17,
+      "proportion": 0.1017964071856287,
+      "count": 15,
+      "support": 0.75,
+      "lift": 0.75
+    },
+    {
+      "pattern": "C->A",
+      "length": 2,
+      "frequency": 15,
+      "proportion": 0.08982035928143713,
+      "count": 12,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.01796407185628742,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    }
+  ],
+  "pat_d2_ng3": [
+    {
+      "pattern": "B->B->B",
+      "length": 3,
+      "frequency": 13,
+      "proportion": 0.08843537414965986,
+      "count": 8,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "A->A->A",
+      "length": 3,
+      "frequency": 9,
+      "proportion": 0.06122448979591837,
+      "count": 7,
+      "support": 0.35,
+      "lift": 0.35
+    },
+    {
+      "pattern": "B->B->A",
+      "length": 3,
+      "frequency": 9,
+      "proportion": 0.06122448979591837,
+      "count": 7,
+      "support": 0.35,
+      "lift": 0.35
+    },
+    {
+      "pattern": "A->A->B",
+      "length": 3,
+      "frequency": 8,
+      "proportion": 0.05442176870748299,
+      "count": 7,
+      "support": 0.35,
+      "lift": 0.35
+    },
+    {
+      "pattern": "A->C->B",
+      "length": 3,
+      "frequency": 8,
+      "proportion": 0.05442176870748299,
+      "count": 8,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "B->A->B",
+      "length": 3,
+      "frequency": 8,
+      "proportion": 0.05442176870748299,
+      "count": 7,
+      "support": 0.35,
+      "lift": 0.35
+    },
+    {
+      "pattern": "B->B->C",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04761904761904762,
+      "count": 7,
+      "support": 0.35,
+      "lift": 0.35
+    },
+    {
+      "pattern": "C->B->A",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04761904761904762,
+      "count": 6,
+      "support": 0.3,
+      "lift": 0.3
+    },
+    {
+      "pattern": "B->C->A",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04761904761904762,
+      "count": 7,
+      "support": 0.35,
+      "lift": 0.35
+    },
+    {
+      "pattern": "C->A->A",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04761904761904762,
+      "count": 7,
+      "support": 0.35,
+      "lift": 0.35
+    },
+    {
+      "pattern": "A->B->B",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04761904761904762,
+      "count": 6,
+      "support": 0.3,
+      "lift": 0.3
+    },
+    {
+      "pattern": "A->A->C",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.04081632653061224,
+      "count": 6,
+      "support": 0.3,
+      "lift": 0.3
+    },
+    {
+      "pattern": "B->C->B",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.04081632653061224,
+      "count": 5,
+      "support": 0.25,
+      "lift": 0.25
+    },
+    {
+      "pattern": "C->B->B",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.04081632653061224,
+      "count": 5,
+      "support": 0.25,
+      "lift": 0.25
+    },
+    {
+      "pattern": "A->B->A",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.04081632653061224,
+      "count": 5,
+      "support": 0.25,
+      "lift": 0.25
+    },
+    {
+      "pattern": "B->A->C",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.04081632653061224,
+      "count": 5,
+      "support": 0.25,
+      "lift": 0.25
+    },
+    {
+      "pattern": "C->B->C",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.03401360544217687,
+      "count": 5,
+      "support": 0.25,
+      "lift": 0.25
+    },
+    {
+      "pattern": "A->C->A",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.0272108843537415,
+      "count": 4,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "A->B->C",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.0272108843537415,
+      "count": 4,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "C->A->B",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02040816326530612,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "C->C->A",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02040816326530612,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "B->A->A",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02040816326530612,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "A->C->C",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01360544217687075,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "C->A->C",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01360544217687075,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "B->C->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006802721088435374,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    }
+  ],
+  "pat_d2_ng4": [
+    {
+      "pattern": "B->B->B->A",
+      "length": 4,
+      "frequency": 6,
+      "proportion": 0.04724409448818898,
+      "count": 5,
+      "support": 0.25,
+      "lift": 0.25
+    },
+    {
+      "pattern": "A->A->A->B",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.03937007874015748,
+      "count": 5,
+      "support": 0.25,
+      "lift": 0.25
+    },
+    {
+      "pattern": "B->B->A->B",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.03149606299212598,
+      "count": 4,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "B->A->C->B",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.03149606299212598,
+      "count": 4,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "B->C->B->A",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "B->B->B->B",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "C->B->A->C",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "B->B->C->A",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "C->B->B->B",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->B->B->B",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "C->A->A->C",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "A->A->B->A",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "B->C->A->A",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "A->A->C->A",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "A->C->B->C",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "A->C->B->A",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "B->A->B->B",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "A->B->B->C",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02362204724409449,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    },
+    {
+      "pattern": "A->C->C->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->A->A->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "B->B->B->C",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->A->B->C",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "C->B->B->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "C->B->C->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->C->B->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->C->A->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "B->B->C->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "C->A->B->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->B->A->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "C->C->A->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->B->C->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "B->C->A->C",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "C->A->A->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "B->A->B->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->B->C->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "B->A->B->C",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "B->A->A->A",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->B->A->C",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->A->C->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "B->C->B->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "C->A->A->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "C->B->A->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->A->B->B",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01574803149606299,
+      "count": 2,
+      "support": 0.1,
+      "lift": 0.1
+    },
+    {
+      "pattern": "A->A->C->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "B->B->A->A",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "A->A->A->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "C->A->C->B",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "C->B->A->A",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "B->B->A->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "B->A->A->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "A->C->A->B",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "C->B->C->B",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "A->B->A->A",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "C->B->B->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "C->B->C->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "B->C->A->B",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "B->C->B->C",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "A->B->B->A",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    },
+    {
+      "pattern": "B->C->C->A",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007874015748031496,
+      "count": 1,
+      "support": 0.05,
+      "lift": 0.05
+    }
+  ],
+  "pat_d2_gp12": [
+    {
+      "pattern": "B->*->B",
+      "length": 3,
+      "frequency": 27,
+      "proportion": 0.1836734693877551,
+      "count": 13,
+      "support": 0.65,
+      "lift": 0.65
+    },
+    {
+      "pattern": "A->*->B",
+      "length": 3,
+      "frequency": 23,
+      "proportion": 0.1564625850340136,
+      "count": 17,
+      "support": 0.85,
+      "lift": 0.85
+    },
+    {
+      "pattern": "B->**->A",
+      "length": 4,
+      "frequency": 21,
+      "proportion": 0.1653543307086614,
+      "count": 12,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "A->*->A",
+      "length": 3,
+      "frequency": 19,
+      "proportion": 0.1292517006802721,
+      "count": 11,
+      "support": 0.55,
+      "lift": 0.55
+    },
+    {
+      "pattern": "B->*->A",
+      "length": 3,
+      "frequency": 19,
+      "proportion": 0.1292517006802721,
+      "count": 12,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "A->**->A",
+      "length": 4,
+      "frequency": 19,
+      "proportion": 0.1496062992125984,
+      "count": 10,
+      "support": 0.5,
+      "lift": 0.5
+    },
+    {
+      "pattern": "A->**->B",
+      "length": 4,
+      "frequency": 19,
+      "proportion": 0.1496062992125984,
+      "count": 13,
+      "support": 0.65,
+      "lift": 0.65
+    },
+    {
+      "pattern": "B->**->B",
+      "length": 4,
+      "frequency": 19,
+      "proportion": 0.1496062992125984,
+      "count": 13,
+      "support": 0.65,
+      "lift": 0.65
+    },
+    {
+      "pattern": "C->*->A",
+      "length": 3,
+      "frequency": 17,
+      "proportion": 0.1156462585034014,
+      "count": 12,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "B->*->C",
+      "length": 3,
+      "frequency": 14,
+      "proportion": 0.09523809523809523,
+      "count": 11,
+      "support": 0.55,
+      "lift": 0.55
+    },
+    {
+      "pattern": "A->*->C",
+      "length": 3,
+      "frequency": 12,
+      "proportion": 0.08163265306122448,
+      "count": 9,
+      "support": 0.45,
+      "lift": 0.45
+    },
+    {
+      "pattern": "A->**->C",
+      "length": 4,
+      "frequency": 12,
+      "proportion": 0.09448818897637795,
+      "count": 9,
+      "support": 0.45,
+      "lift": 0.45
+    },
+    {
+      "pattern": "C->**->B",
+      "length": 4,
+      "frequency": 11,
+      "proportion": 0.08661417322834646,
+      "count": 8,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "C->*->B",
+      "length": 3,
+      "frequency": 9,
+      "proportion": 0.06122448979591837,
+      "count": 8,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "B->**->C",
+      "length": 4,
+      "frequency": 9,
+      "proportion": 0.07086614173228346,
+      "count": 8,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "C->**->A",
+      "length": 4,
+      "frequency": 9,
+      "proportion": 0.07086614173228346,
+      "count": 7,
+      "support": 0.35,
+      "lift": 0.35
+    },
+    {
+      "pattern": "C->**->C",
+      "length": 4,
+      "frequency": 8,
+      "proportion": 0.06299212598425197,
+      "count": 8,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "C->*->C",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04761904761904762,
+      "count": 6,
+      "support": 0.3,
+      "lift": 0.3
+    }
+  ],
+  "pat_d2_rp23": [
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 31,
+      "proportion": 0.5344827586206896,
+      "count": 13,
+      "support": 0.65,
+      "lift": 0.65
+    },
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 24,
+      "proportion": 0.4137931034482759,
+      "count": 11,
+      "support": 0.55,
+      "lift": 0.55
+    },
+    {
+      "pattern": "B->B->B",
+      "length": 3,
+      "frequency": 13,
+      "proportion": 0.5909090909090909,
+      "count": 8,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "A->A->A",
+      "length": 3,
+      "frequency": 9,
+      "proportion": 0.4090909090909091,
+      "count": 7,
+      "support": 0.35,
+      "lift": 0.35
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.05172413793103448,
+      "count": 3,
+      "support": 0.15,
+      "lift": 0.15
+    }
+  ],
+  "pat_d3_ng2": [
+    {
+      "pattern": "Work->High",
+      "length": 2,
+      "frequency": 12,
+      "proportion": 0.07547169811320754,
+      "count": 9,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "Med->High",
+      "length": 2,
+      "frequency": 10,
+      "proportion": 0.06289308176100629,
+      "count": 9,
+      "support": 0.6,
+      "lift": 0.6923076923076923
+    },
+    {
+      "pattern": "Work->Low",
+      "length": 2,
+      "frequency": 10,
+      "proportion": 0.06289308176100629,
+      "count": 9,
+      "support": 0.6,
+      "lift": 0.6428571428571428
+    },
+    {
+      "pattern": "Low->Work",
+      "length": 2,
+      "frequency": 9,
+      "proportion": 0.05660377358490566,
+      "count": 7,
+      "support": 0.4666666666666667,
+      "lift": 0.5
+    },
+    {
+      "pattern": "Rest->Rest",
+      "length": 2,
+      "frequency": 9,
+      "proportion": 0.05660377358490566,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.6198347107438017
+    },
+    {
+      "pattern": "High->High",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.05031446540880503,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "High->Work",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.05031446540880503,
+      "count": 7,
+      "support": 0.4666666666666667,
+      "lift": 0.4666666666666667
+    },
+    {
+      "pattern": "Med->Low",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.0440251572327044,
+      "count": 7,
+      "support": 0.4666666666666667,
+      "lift": 0.576923076923077
+    },
+    {
+      "pattern": "High->Low",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.0440251572327044,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4285714285714286
+    },
+    {
+      "pattern": "Rest->Work",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.0440251572327044,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.5454545454545455
+    },
+    {
+      "pattern": "Med->Med",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.0440251572327044,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.4437869822485206
+    },
+    {
+      "pattern": "Low->Med",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.03773584905660377,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.4120879120879121
+    },
+    {
+      "pattern": "Low->Rest",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.03773584905660377,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.5844155844155845
+    },
+    {
+      "pattern": "Work->Med",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.03773584905660377,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.3846153846153846
+    },
+    {
+      "pattern": "Med->Work",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.03773584905660377,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3076923076923077
+    },
+    {
+      "pattern": "High->Rest",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.03773584905660377,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.5454545454545455
+    },
+    {
+      "pattern": "High->Med",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.03144654088050314,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3076923076923077
+    },
+    {
+      "pattern": "Work->Work",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.03144654088050314,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.2666666666666667
+    },
+    {
+      "pattern": "Low->High",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.03144654088050314,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.2857142857142857
+    },
+    {
+      "pattern": "Rest->High",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.02515723270440252,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3636363636363636
+    },
+    {
+      "pattern": "Rest->Med",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.02515723270440252,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.4195804195804196
+    },
+    {
+      "pattern": "Low->Low",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.02515723270440252,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3061224489795918
+    },
+    {
+      "pattern": "Med->Rest",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.01886792452830189,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.3146853146853147
+    },
+    {
+      "pattern": "Rest->Low",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.01886792452830189,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2922077922077922
+    },
+    {
+      "pattern": "Work->Rest",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.01257861635220126,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09090909090909091
+    }
+  ],
+  "pat_d3_ng3": [
+    {
+      "pattern": "Med->Work->High",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.02777777777777778,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2307692307692308
+    },
+    {
+      "pattern": "High->Rest->Rest",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.02777777777777778,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.4958677685950414
+    },
+    {
+      "pattern": "Rest->Work->High",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.02777777777777778,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3636363636363636
+    },
+    {
+      "pattern": "Med->High->High",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2307692307692308
+    },
+    {
+      "pattern": "Low->Work->Low",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2295918367346939
+    },
+    {
+      "pattern": "Low->Med->Med",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1901944209636517
+    },
+    {
+      "pattern": "Work->Low->Work",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2142857142857143
+    },
+    {
+      "pattern": "High->Work->Low",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2142857142857143
+    },
+    {
+      "pattern": "High->Low->Med",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2472527472527473
+    },
+    {
+      "pattern": "Work->High->High",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1333333333333333
+    },
+    {
+      "pattern": "Work->Low->High",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1428571428571428
+    },
+    {
+      "pattern": "Work->High->Med",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1538461538461538
+    },
+    {
+      "pattern": "Rest->Rest->Rest",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.3380916604057101
+    },
+    {
+      "pattern": "Med->High->Rest",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.3146853146853147
+    },
+    {
+      "pattern": "Med->Low->Rest",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.2247752247752248
+    },
+    {
+      "pattern": "Rest->High->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1818181818181818
+    },
+    {
+      "pattern": "High->Med->Med",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1775147928994083
+    },
+    {
+      "pattern": "Low->Rest->High",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1948051948051948
+    },
+    {
+      "pattern": "Work->Med->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07692307692307691
+    },
+    {
+      "pattern": "Med->Work->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1538461538461538
+    },
+    {
+      "pattern": "High->Low->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1428571428571428
+    },
+    {
+      "pattern": "High->High->High",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1333333333333333
+    },
+    {
+      "pattern": "Med->Med->High",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1775147928994083
+    },
+    {
+      "pattern": "Low->Rest->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1948051948051948
+    },
+    {
+      "pattern": "Low->Work->High",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Work->Work->Low",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1428571428571428
+    },
+    {
+      "pattern": "High->High->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1333333333333333
+    },
+    {
+      "pattern": "Work->Low->Low",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1530612244897959
+    },
+    {
+      "pattern": "High->Work->Med",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1538461538461538
+    },
+    {
+      "pattern": "High->High->Low",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1428571428571428
+    },
+    {
+      "pattern": "Low->High->Low",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1530612244897959
+    },
+    {
+      "pattern": "Rest->Med->Low",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.2247752247752248
+    },
+    {
+      "pattern": "High->Med->High",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1538461538461538
+    },
+    {
+      "pattern": "Low->Low->High",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1530612244897959
+    },
+    {
+      "pattern": "Med->High->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1538461538461538
+    },
+    {
+      "pattern": "Med->Low->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1648351648351648
+    },
+    {
+      "pattern": "Rest->Rest->Med",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.2860775588048315
+    },
+    {
+      "pattern": "Med->Med->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1775147928994083
+    },
+    {
+      "pattern": "Rest->Rest->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.2479338842975207
+    },
+    {
+      "pattern": "Med->High->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Med->Rest->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1430387794024158
+    },
+    {
+      "pattern": "Rest->Work->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09740259740259741
+    },
+    {
+      "pattern": "Work->Low->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Med->Med->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1210328133405056
+    },
+    {
+      "pattern": "Rest->High->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1239669421487603
+    },
+    {
+      "pattern": "Rest->Rest->High",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1239669421487603
+    },
+    {
+      "pattern": "Work->Low->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09740259740259741
+    },
+    {
+      "pattern": "Rest->Work->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1239669421487603
+    },
+    {
+      "pattern": "Med->Rest->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1210328133405056
+    },
+    {
+      "pattern": "Low->Med->High",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Rest->High->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "High->Work->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.06666666666666667
+    },
+    {
+      "pattern": "Med->Med->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09509721048182586
+    },
+    {
+      "pattern": "Work->Rest->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09740259740259741
+    },
+    {
+      "pattern": "High->High->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09090909090909091
+    },
+    {
+      "pattern": "Low->Work->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Rest->Work->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Work->Work->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.06666666666666667
+    },
+    {
+      "pattern": "Work->Med->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Med->Low->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09509721048182587
+    },
+    {
+      "pattern": "High->Low->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07653061224489795
+    },
+    {
+      "pattern": "Rest->Low->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09740259740259741
+    },
+    {
+      "pattern": "High->Rest->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09090909090909091
+    },
+    {
+      "pattern": "Work->Med->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08875739644970414
+    },
+    {
+      "pattern": "Work->Med->High",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07692307692307691
+    },
+    {
+      "pattern": "Low->Low->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1043599257884972
+    },
+    {
+      "pattern": "Low->Work->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09740259740259741
+    },
+    {
+      "pattern": "Low->Med->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1123876123876124
+    },
+    {
+      "pattern": "High->Low->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09740259740259741
+    },
+    {
+      "pattern": "Med->Med->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1024123805188894
+    },
+    {
+      "pattern": "Low->Rest->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1328217237308147
+    },
+    {
+      "pattern": "Work->Rest->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Med->Rest->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Low->Rest->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1043599257884972
+    },
+    {
+      "pattern": "Low->High->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Rest->Med->High",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Rest->Med->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Work->High->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Rest->Rest->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1328217237308147
+    },
+    {
+      "pattern": "Low->Work->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Rest->Low->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1043599257884972
+    },
+    {
+      "pattern": "Work->High->Rest",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09090909090909091
+    },
+    {
+      "pattern": "Work->High->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.06666666666666667
+    },
+    {
+      "pattern": "High->Work->High",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.06666666666666667
+    },
+    {
+      "pattern": "Work->Work->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07692307692307691
+    },
+    {
+      "pattern": "Work->Work->High",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.06666666666666667
+    },
+    {
+      "pattern": "High->Med->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Low->Med->Low",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.006944444444444444,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08830455259026687
+    }
+  ],
+  "pat_d3_ng4": [
+    {
+      "pattern": "Med->High->Rest->Rest",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02325581395348837,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.4291163382072474
+    },
+    {
+      "pattern": "Med->High->High->High",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1538461538461538
+    },
+    {
+      "pattern": "Rest->High->Work->Low",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1948051948051948
+    },
+    {
+      "pattern": "Work->Med->Work->High",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07692307692307691
+    },
+    {
+      "pattern": "High->High->High->Work",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1333333333333333
+    },
+    {
+      "pattern": "High->Work->Low->High",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1428571428571428
+    },
+    {
+      "pattern": "Med->Work->High->Med",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08875739644970414
+    },
+    {
+      "pattern": "High->Rest->Rest->Rest",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.3380916604057101
+    },
+    {
+      "pattern": "Work->High->Med->High",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1538461538461538
+    },
+    {
+      "pattern": "Rest->Rest->Rest->Med",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.3901057620065885
+    },
+    {
+      "pattern": "Rest->Work->High->High",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1818181818181818
+    },
+    {
+      "pattern": "Med->Med->Work->High",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1775147928994083
+    },
+    {
+      "pattern": "Rest->Rest->Work->High",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.2479338842975207
+    },
+    {
+      "pattern": "Low->Work->Low->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08830455259026686
+    },
+    {
+      "pattern": "Low->Med->Med->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09509721048182587
+    },
+    {
+      "pattern": "Med->Low->Rest->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1123876123876124
+    },
+    {
+      "pattern": "Work->Low->Work->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "High->Med->Med->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1210328133405056
+    },
+    {
+      "pattern": "Low->Rest->High->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1328217237308147
+    },
+    {
+      "pattern": "Med->High->Low->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09509721048182587
+    },
+    {
+      "pattern": "Med->Work->Work->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Med->Rest->Rest->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1430387794024158
+    },
+    {
+      "pattern": "High->Low->Work->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07653061224489795
+    },
+    {
+      "pattern": "Rest->Work->Low->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1328217237308147
+    },
+    {
+      "pattern": "Work->Low->Med->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09509721048182587
+    },
+    {
+      "pattern": "Med->Med->High->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08875739644970414
+    },
+    {
+      "pattern": "Low->Rest->Work->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1328217237308147
+    },
+    {
+      "pattern": "Low->Work->High->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Med->Med->Rest->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1396532461621219
+    },
+    {
+      "pattern": "Rest->High->Rest->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.169045830202855
+    },
+    {
+      "pattern": "High->Low->Med->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Work->Work->Low->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Rest->Rest->High->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1430387794024158
+    },
+    {
+      "pattern": "Low->Work->Low->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08199708454810495
+    },
+    {
+      "pattern": "Work->Low->Rest->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09740259740259741
+    },
+    {
+      "pattern": "High->High->Work->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.06666666666666667
+    },
+    {
+      "pattern": "High->High->Work->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07692307692307691
+    },
+    {
+      "pattern": "Low->Med->Med->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1018898683733849
+    },
+    {
+      "pattern": "Med->High->High->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Rest->Work->Rest->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1328217237308147
+    },
+    {
+      "pattern": "Work->High->High->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09090909090909091
+    },
+    {
+      "pattern": "Work->Low->High->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07653061224489795
+    },
+    {
+      "pattern": "Med->Rest->Med->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1296780142933989
+    },
+    {
+      "pattern": "Low->Med->High->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1123876123876124
+    },
+    {
+      "pattern": "Work->Low->Work->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Rest->High->Med->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1210328133405056
+    },
+    {
+      "pattern": "Work->Low->Low->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07653061224489795
+    },
+    {
+      "pattern": "Low->Rest->Work->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1123876123876124
+    },
+    {
+      "pattern": "High->Work->Work->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.06666666666666667
+    },
+    {
+      "pattern": "High->Work->Med->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Med->Med->Low->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1097275505559529
+    },
+    {
+      "pattern": "High->High->Low->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07653061224489795
+    },
+    {
+      "pattern": "Work->Rest->Low->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09740259740259741
+    },
+    {
+      "pattern": "High->High->Rest->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09090909090909091
+    },
+    {
+      "pattern": "Low->High->Low->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08830455259026686
+    },
+    {
+      "pattern": "Rest->Med->Low->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1532558350740169
+    },
+    {
+      "pattern": "Rest->Rest->Rest->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.2305170411857115
+    },
+    {
+      "pattern": "High->Med->High->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07692307692307691
+    },
+    {
+      "pattern": "Low->Work->Med->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09509721048182587
+    },
+    {
+      "pattern": "High->Med->Med->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08875739644970414
+    },
+    {
+      "pattern": "Low->Low->High->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08199708454810495
+    },
+    {
+      "pattern": "Rest->Work->Med->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Work->Work->Work->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Work->Med->Low->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Med->Low->Med->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1097275505559529
+    },
+    {
+      "pattern": "High->Low->Low->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1043599257884972
+    },
+    {
+      "pattern": "Rest->Low->Work->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1328217237308147
+    },
+    {
+      "pattern": "High->Rest->Work->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09090909090909091
+    },
+    {
+      "pattern": "High->Low->Med->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1123876123876124
+    },
+    {
+      "pattern": "Med->Low->Rest->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1123876123876124
+    },
+    {
+      "pattern": "Med->High->Work->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08875739644970414
+    },
+    {
+      "pattern": "Work->Med->Med->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08875739644970414
+    },
+    {
+      "pattern": "Med->Med->High->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1210328133405056
+    },
+    {
+      "pattern": "Low->High->Low->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1043599257884972
+    },
+    {
+      "pattern": "Work->Med->High->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Work->Work->Low->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Med->Low->Work->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08830455259026687
+    },
+    {
+      "pattern": "Low->Med->Med->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1097275505559529
+    },
+    {
+      "pattern": "Low->Low->Rest->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1423089897115871
+    },
+    {
+      "pattern": "Low->Work->Rest->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1123876123876124
+    },
+    {
+      "pattern": "Low->Med->Rest->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1123876123876124
+    },
+    {
+      "pattern": "Low->Rest->High->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09740259740259741
+    },
+    {
+      "pattern": "Rest->Rest->Med->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1532558350740169
+    },
+    {
+      "pattern": "High->Work->Med->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07692307692307691
+    },
+    {
+      "pattern": "High->Low->Rest->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1043599257884972
+    },
+    {
+      "pattern": "Work->Low->High->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Low->Work->Low->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07653061224489795
+    },
+    {
+      "pattern": "Med->Med->Med->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1024123805188894
+    },
+    {
+      "pattern": "Low->Rest->Rest->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1328217237308147
+    },
+    {
+      "pattern": "Work->Rest->Med->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Work->High->High->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Med->Rest->Work->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Rest->Med->Low->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1123876123876124
+    },
+    {
+      "pattern": "Rest->Rest->Med->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1430387794024158
+    },
+    {
+      "pattern": "Med->Work->High->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "High->Rest->Rest->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1239669421487603
+    },
+    {
+      "pattern": "High->Rest->Rest->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1328217237308147
+    },
+    {
+      "pattern": "Low->High->Work->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07653061224489795
+    },
+    {
+      "pattern": "Rest->Med->High->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "High->High->Low->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Rest->Work->High->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "High->Work->Low->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07653061224489795
+    },
+    {
+      "pattern": "Med->Low->Work->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Rest->Med->Work->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Work->High->Low->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Rest->Rest->Low->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1423089897115871
+    },
+    {
+      "pattern": "Med->Work->High->Rest",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1048951048951049
+    },
+    {
+      "pattern": "Rest->Work->High->Work",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09090909090909091
+    },
+    {
+      "pattern": "Med->High->Work->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07692307692307691
+    },
+    {
+      "pattern": "High->Low->Work->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    },
+    {
+      "pattern": "Low->Work->Work->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "Med->Work->Work->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07692307692307691
+    },
+    {
+      "pattern": "Work->High->Med->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08241758241758242
+    },
+    {
+      "pattern": "High->Low->Med->Low",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.08830455259026687
+    },
+    {
+      "pattern": "Rest->Low->Low->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1043599257884972
+    }
+  ],
+  "pat_d3_gp12": [
+    {
+      "pattern": "Med->**->High",
+      "length": 4,
+      "frequency": 10,
+      "proportion": 0.07751937984496124,
+      "count": 10,
+      "support": 0.6666666666666666,
+      "lift": 0.7692307692307692
+    },
+    {
+      "pattern": "Med->*->High",
+      "length": 3,
+      "frequency": 9,
+      "proportion": 0.0625,
+      "count": 7,
+      "support": 0.4666666666666667,
+      "lift": 0.5384615384615384
+    },
+    {
+      "pattern": "Med->*->Work",
+      "length": 3,
+      "frequency": 9,
+      "proportion": 0.0625,
+      "count": 8,
+      "support": 0.5333333333333333,
+      "lift": 0.6153846153846153
+    },
+    {
+      "pattern": "High->**->Work",
+      "length": 4,
+      "frequency": 9,
+      "proportion": 0.06976744186046512,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "Work->*->High",
+      "length": 3,
+      "frequency": 8,
+      "proportion": 0.05555555555555555,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "Work->**->High",
+      "length": 4,
+      "frequency": 8,
+      "proportion": 0.06201550387596899,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "Low->*->Low",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04861111111111111,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.3826530612244898
+    },
+    {
+      "pattern": "Med->*->Rest",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04861111111111111,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.5244755244755245
+    },
+    {
+      "pattern": "Work->*->Work",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04861111111111111,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "High->*->Med",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04861111111111111,
+      "count": 7,
+      "support": 0.4666666666666667,
+      "lift": 0.5384615384615384
+    },
+    {
+      "pattern": "Low->*->High",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04861111111111111,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4285714285714286
+    },
+    {
+      "pattern": "Work->*->Med",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04861111111111111,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4615384615384616
+    },
+    {
+      "pattern": "High->*->Low",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04861111111111111,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4285714285714286
+    },
+    {
+      "pattern": "Work->*->Low",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.04861111111111111,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4285714285714286
+    },
+    {
+      "pattern": "Low->**->Med",
+      "length": 4,
+      "frequency": 7,
+      "proportion": 0.05426356589147287,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4945054945054945
+    },
+    {
+      "pattern": "Med->**->Med",
+      "length": 4,
+      "frequency": 7,
+      "proportion": 0.05426356589147287,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3550295857988165
+    },
+    {
+      "pattern": "High->**->Low",
+      "length": 4,
+      "frequency": 7,
+      "proportion": 0.05426356589147287,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4285714285714286
+    },
+    {
+      "pattern": "Rest->*->Work",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.04166666666666666,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.5454545454545455
+    },
+    {
+      "pattern": "High->*->Work",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.04166666666666666,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.2666666666666667
+    },
+    {
+      "pattern": "Rest->*->High",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.04166666666666666,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.4545454545454545
+    },
+    {
+      "pattern": "High->*->Rest",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.04166666666666666,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.5454545454545455
+    },
+    {
+      "pattern": "High->**->High",
+      "length": 4,
+      "frequency": 6,
+      "proportion": 0.04651162790697674,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "Work->**->Work",
+      "length": 4,
+      "frequency": 6,
+      "proportion": 0.04651162790697674,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "Rest->**->High",
+      "length": 4,
+      "frequency": 6,
+      "proportion": 0.04651162790697674,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3636363636363636
+    },
+    {
+      "pattern": "Rest->*->Low",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.03472222222222222,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2922077922077922
+    },
+    {
+      "pattern": "High->*->High",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.03472222222222222,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "Rest->*->Rest",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.03472222222222222,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.3719008264462811
+    },
+    {
+      "pattern": "Rest->**->Low",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.03875968992248062,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.487012987012987
+    },
+    {
+      "pattern": "High->**->Rest",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.03875968992248062,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.4545454545454545
+    },
+    {
+      "pattern": "Low->**->Rest",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.03875968992248062,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.487012987012987
+    },
+    {
+      "pattern": "Med->**->Low",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.03875968992248062,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3296703296703297
+    },
+    {
+      "pattern": "Rest->**->Rest",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.03875968992248062,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.4958677685950414
+    },
+    {
+      "pattern": "Rest->**->Med",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.03875968992248062,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.4195804195804196
+    },
+    {
+      "pattern": "Med->**->Rest",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.03875968992248062,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.4195804195804196
+    },
+    {
+      "pattern": "Rest->**->Work",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.03875968992248062,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3636363636363636
+    },
+    {
+      "pattern": "Low->*->Med",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.02777777777777778,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2472527472527473
+    },
+    {
+      "pattern": "Low->*->Work",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.02777777777777778,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.2857142857142857
+    },
+    {
+      "pattern": "Rest->*->Med",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.02777777777777778,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.4195804195804196
+    },
+    {
+      "pattern": "Low->*->Rest",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.02777777777777778,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2922077922077922
+    },
+    {
+      "pattern": "Low->**->Low",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.0310077519379845,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2295918367346939
+    },
+    {
+      "pattern": "Work->**->Low",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.0310077519379845,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.2857142857142857
+    },
+    {
+      "pattern": "Low->**->Work",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.0310077519379845,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.2857142857142857
+    },
+    {
+      "pattern": "Med->*->Med",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.02083333333333333,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1775147928994083
+    },
+    {
+      "pattern": "Med->**->Work",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02325581395348837,
+      "count": 3,
+      "support": 0.2,
+      "lift": 0.2307692307692308
+    },
+    {
+      "pattern": "Work->**->Med",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.02325581395348837,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1538461538461538
+    },
+    {
+      "pattern": "Med->*->Low",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1648351648351648
+    },
+    {
+      "pattern": "Work->*->Rest",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.01388888888888889,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1818181818181818
+    },
+    {
+      "pattern": "Low->**->High",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1428571428571428
+    },
+    {
+      "pattern": "Work->**->Rest",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.01550387596899225,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1818181818181818
+    },
+    {
+      "pattern": "High->**->Med",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.007751937984496124,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07692307692307691
+    }
+  ],
+  "pat_d3_rp23": [
+    {
+      "pattern": "Rest->Rest",
+      "length": 2,
+      "frequency": 9,
+      "proportion": 0.2727272727272727,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.6198347107438017
+    },
+    {
+      "pattern": "High->High",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.2424242424242424,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "Med->Med",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.2121212121212121,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.4437869822485206
+    },
+    {
+      "pattern": "Work->Work",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.1515151515151515,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.2666666666666667
+    },
+    {
+      "pattern": "Low->Low",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1212121212121212,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3061224489795918
+    },
+    {
+      "pattern": "Rest->Rest->Rest",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.4285714285714285,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.3380916604057101
+    },
+    {
+      "pattern": "High->High->High",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.2857142857142857,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1333333333333333
+    },
+    {
+      "pattern": "Work->Work->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.1428571428571428,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.06666666666666667
+    },
+    {
+      "pattern": "Med->Med->Med",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.1428571428571428,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.1024123805188894
+    }
+  ],
+  "pat_d4_ng2": [
+    {
+      "pattern": "On->On",
+      "length": 2,
+      "frequency": 17,
+      "proportion": 0.3617021276595745,
+      "count": 7,
+      "support": 0.7,
+      "lift": 0.7
+    },
+    {
+      "pattern": "Off->Off",
+      "length": 2,
+      "frequency": 12,
+      "proportion": 0.2553191489361702,
+      "count": 7,
+      "support": 0.7,
+      "lift": 0.8641975308641974
+    },
+    {
+      "pattern": "Off->On",
+      "length": 2,
+      "frequency": 10,
+      "proportion": 0.2127659574468085,
+      "count": 9,
+      "support": 0.9,
+      "lift": 1
+    },
+    {
+      "pattern": "On->Off",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.1702127659574468,
+      "count": 6,
+      "support": 0.6,
+      "lift": 0.6666666666666666
+    }
+  ],
+  "pat_d4_ng3": [
+    {
+      "pattern": "On->On->On",
+      "length": 3,
+      "frequency": 10,
+      "proportion": 0.2702702702702703,
+      "count": 6,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "Off->Off->On",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.1621621621621622,
+      "count": 6,
+      "support": 0.6,
+      "lift": 0.7407407407407407
+    },
+    {
+      "pattern": "Off->On->On",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.1351351351351351,
+      "count": 5,
+      "support": 0.5,
+      "lift": 0.5555555555555556
+    },
+    {
+      "pattern": "Off->Off->Off",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1081081081081081,
+      "count": 3,
+      "support": 0.3,
+      "lift": 0.4115226337448559
+    },
+    {
+      "pattern": "On->Off->Off",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1081081081081081,
+      "count": 4,
+      "support": 0.4,
+      "lift": 0.4938271604938271
+    },
+    {
+      "pattern": "On->Off->On",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.08108108108108109,
+      "count": 3,
+      "support": 0.3,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "On->On->Off",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.08108108108108109,
+      "count": 3,
+      "support": 0.3,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "Off->On->Off",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.05405405405405406,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2469135802469136
+    }
+  ],
+  "pat_d4_ng4": [
+    {
+      "pattern": "On->On->On->On",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.1481481481481481,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "Off->On->On->On",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.1481481481481481,
+      "count": 4,
+      "support": 0.4,
+      "lift": 0.4444444444444445
+    },
+    {
+      "pattern": "Off->Off->On->On",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.1111111111111111,
+      "count": 3,
+      "support": 0.3,
+      "lift": 0.3703703703703703
+    },
+    {
+      "pattern": "Off->Off->Off->On",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.07407407407407407,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2743484224965706
+    },
+    {
+      "pattern": "On->Off->On->On",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.07407407407407407,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2222222222222222
+    },
+    {
+      "pattern": "On->On->On->Off",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.07407407407407407,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2222222222222222
+    },
+    {
+      "pattern": "Off->On->Off->Off",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.07407407407407407,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2743484224965706
+    },
+    {
+      "pattern": "On->On->Off->Off",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.07407407407407407,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2469135802469136
+    },
+    {
+      "pattern": "On->Off->Off->On",
+      "length": 4,
+      "frequency": 2,
+      "proportion": 0.07407407407407407,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2469135802469136
+    },
+    {
+      "pattern": "On->Off->On->Off",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.03703703703703703,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.1234567901234568
+    },
+    {
+      "pattern": "Off->On->On->Off",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.03703703703703703,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.1234567901234568
+    },
+    {
+      "pattern": "On->Off->Off->Off",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.03703703703703703,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.1371742112482853
+    },
+    {
+      "pattern": "Off->Off->Off->Off",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.03703703703703703,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.1524157902758726
+    }
+  ],
+  "pat_d4_gp12": [
+    {
+      "pattern": "On->*->On",
+      "length": 3,
+      "frequency": 13,
+      "proportion": 0.3513513513513514,
+      "count": 7,
+      "support": 0.7,
+      "lift": 0.7
+    },
+    {
+      "pattern": "Off->*->On",
+      "length": 3,
+      "frequency": 11,
+      "proportion": 0.2972972972972973,
+      "count": 8,
+      "support": 0.8,
+      "lift": 0.888888888888889
+    },
+    {
+      "pattern": "Off->**->On",
+      "length": 4,
+      "frequency": 9,
+      "proportion": 0.3333333333333333,
+      "count": 6,
+      "support": 0.6,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "On->**->On",
+      "length": 4,
+      "frequency": 8,
+      "proportion": 0.2962962962962963,
+      "count": 6,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "On->*->Off",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.1891891891891892,
+      "count": 5,
+      "support": 0.5,
+      "lift": 0.5555555555555556
+    },
+    {
+      "pattern": "Off->*->Off",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.1621621621621622,
+      "count": 4,
+      "support": 0.4,
+      "lift": 0.4938271604938271
+    },
+    {
+      "pattern": "On->**->Off",
+      "length": 4,
+      "frequency": 6,
+      "proportion": 0.2222222222222222,
+      "count": 5,
+      "support": 0.5,
+      "lift": 0.5555555555555556
+    },
+    {
+      "pattern": "Off->**->Off",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.1481481481481481,
+      "count": 3,
+      "support": 0.3,
+      "lift": 0.3703703703703703
+    }
+  ],
+  "pat_d4_rp24": [
+    {
+      "pattern": "On->On",
+      "length": 2,
+      "frequency": 17,
+      "proportion": 0.5862068965517241,
+      "count": 7,
+      "support": 0.7,
+      "lift": 0.7
+    },
+    {
+      "pattern": "Off->Off",
+      "length": 2,
+      "frequency": 12,
+      "proportion": 0.4137931034482759,
+      "count": 7,
+      "support": 0.7,
+      "lift": 0.8641975308641974
+    },
+    {
+      "pattern": "On->On->On",
+      "length": 3,
+      "frequency": 10,
+      "proportion": 0.7142857142857143,
+      "count": 6,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "Off->Off->Off",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.2857142857142857,
+      "count": 3,
+      "support": 0.3,
+      "lift": 0.4115226337448559
+    },
+    {
+      "pattern": "On->On->On->On",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.8,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "Off->Off->Off->Off",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.2,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.1524157902758726
+    }
+  ],
+  "pat_d5_ng2": [
+    {
+      "pattern": "B->C",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.2,
+      "count": 6,
+      "support": 0.75,
+      "lift": 0.8571428571428571
+    },
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.175,
+      "count": 3,
+      "support": 0.375,
+      "lift": 0.375
+    },
+    {
+      "pattern": "C->B",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.15,
+      "count": 5,
+      "support": 0.625,
+      "lift": 0.7142857142857143
+    },
+    {
+      "pattern": "A->B",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1,
+      "count": 4,
+      "support": 0.5,
+      "lift": 0.5714285714285714
+    },
+    {
+      "pattern": "B->A",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1,
+      "count": 4,
+      "support": 0.5,
+      "lift": 0.5714285714285714
+    },
+    {
+      "pattern": "C->A",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1,
+      "count": 4,
+      "support": 0.5,
+      "lift": 0.6530612244897959
+    },
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.075,
+      "count": 2,
+      "support": 0.25,
+      "lift": 0.3265306122448979
+    },
+    {
+      "pattern": "A->C",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.05,
+      "count": 2,
+      "support": 0.25,
+      "lift": 0.3265306122448979
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.05,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.163265306122449
+    }
+  ],
+  "pat_d5_ng3": [
+    {
+      "pattern": "B->C->B",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1290322580645161,
+      "count": 3,
+      "support": 0.375,
+      "lift": 0.4285714285714285
+    },
+    {
+      "pattern": "B->C->A",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 3,
+      "support": 0.375,
+      "lift": 0.4897959183673469
+    },
+    {
+      "pattern": "B->B->C",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 2,
+      "support": 0.25,
+      "lift": 0.2857142857142857
+    },
+    {
+      "pattern": "B->B->B",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 2,
+      "support": 0.25,
+      "lift": 0.25
+    },
+    {
+      "pattern": "B->A->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.06451612903225806,
+      "count": 2,
+      "support": 0.25,
+      "lift": 0.2857142857142857
+    },
+    {
+      "pattern": "A->B->C",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.06451612903225806,
+      "count": 2,
+      "support": 0.25,
+      "lift": 0.3265306122448979
+    },
+    {
+      "pattern": "A->B->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.1428571428571428
+    },
+    {
+      "pattern": "A->A->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.1865889212827988
+    },
+    {
+      "pattern": "B->B->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.1428571428571428
+    },
+    {
+      "pattern": "B->A->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.163265306122449
+    },
+    {
+      "pattern": "C->B->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.1428571428571428
+    },
+    {
+      "pattern": "B->C->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.163265306122449
+    },
+    {
+      "pattern": "A->A->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.1865889212827988
+    },
+    {
+      "pattern": "C->B->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.163265306122449
+    },
+    {
+      "pattern": "C->C->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.1865889212827988
+    },
+    {
+      "pattern": "C->A->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.163265306122449
+    },
+    {
+      "pattern": "C->A->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.1865889212827988
+    },
+    {
+      "pattern": "A->B->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.163265306122449
+    },
+    {
+      "pattern": "A->C->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.1865889212827988
+    },
+    {
+      "pattern": "C->C->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.163265306122449
+    }
+  ],
+  "pat_d5_gp1": [
+    {
+      "pattern": "B->*->B",
+      "length": 3,
+      "frequency": 9,
+      "proportion": 0.2368421052631579,
+      "count": 5,
+      "support": 0.625,
+      "lift": 0.625
+    },
+    {
+      "pattern": "B->*->A",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.1578947368421053,
+      "count": 5,
+      "support": 0.625,
+      "lift": 0.7142857142857143
+    },
+    {
+      "pattern": "A->*->C",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.1578947368421053,
+      "count": 5,
+      "support": 0.625,
+      "lift": 0.8163265306122449
+    },
+    {
+      "pattern": "B->*->C",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1052631578947368,
+      "count": 3,
+      "support": 0.375,
+      "lift": 0.4285714285714285
+    },
+    {
+      "pattern": "C->*->C",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1052631578947368,
+      "count": 4,
+      "support": 0.5,
+      "lift": 0.6530612244897959
+    },
+    {
+      "pattern": "C->*->B",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.07894736842105263,
+      "count": 3,
+      "support": 0.375,
+      "lift": 0.4285714285714285
+    },
+    {
+      "pattern": "C->*->A",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.07894736842105263,
+      "count": 3,
+      "support": 0.375,
+      "lift": 0.4897959183673469
+    },
+    {
+      "pattern": "A->*->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.05263157894736842,
+      "count": 2,
+      "support": 0.25,
+      "lift": 0.3265306122448979
+    },
+    {
+      "pattern": "A->*->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.02631578947368421,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.1428571428571428
+    }
+  ],
+  "pat_d5_rp2": [
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.5833333333333334,
+      "count": 3,
+      "support": 0.375,
+      "lift": 0.375
+    },
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.25,
+      "count": 2,
+      "support": 0.25,
+      "lift": 0.3265306122448979
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.1666666666666667,
+      "count": 1,
+      "support": 0.125,
+      "lift": 0.163265306122449
+    }
+  ],
+  "pat_d6_ng2": [
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 28,
+      "proportion": 0.3333333333333333,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 21,
+      "proportion": 0.25,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 16,
+      "proportion": 0.1904761904761905,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "A->B",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.05952380952380952,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->A",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.05952380952380952,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "B->C",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.04761904761904762,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "B->A",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.02380952380952381,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "A->C",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.02380952380952381,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "C->B",
+      "length": 2,
+      "frequency": 1,
+      "proportion": 0.0119047619047619,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    }
+  ],
+  "pat_d6_ng3": [
+    {
+      "pattern": "A->A->A",
+      "length": 3,
+      "frequency": 17,
+      "proportion": 0.217948717948718,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "B->B->B",
+      "length": 3,
+      "frequency": 14,
+      "proportion": 0.1794871794871795,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "C->C->C",
+      "length": 3,
+      "frequency": 10,
+      "proportion": 0.1282051282051282,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "A->A->B",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.0641025641025641,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "A->B->B",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.0641025641025641,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->C->A",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.0641025641025641,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->A->A",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.0641025641025641,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "B->B->C",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.05128205128205128,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "B->C->C",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.05128205128205128,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "B->B->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.02564102564102564,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "B->A->A",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.02564102564102564,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "A->A->C",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.02564102564102564,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "A->C->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.01282051282051282,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "C->C->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.01282051282051282,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "C->B->B",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.01282051282051282,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    }
+  ],
+  "pat_d6_ng5": [
+    {
+      "pattern": "A->A->B->B->B",
+      "length": 5,
+      "frequency": 5,
+      "proportion": 0.07575757575757576,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->C->C->A->A",
+      "length": 5,
+      "frequency": 5,
+      "proportion": 0.07575757575757576,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "A->B->B->B->B",
+      "length": 5,
+      "frequency": 5,
+      "proportion": 0.07575757575757576,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->C->A->A->A",
+      "length": 5,
+      "frequency": 5,
+      "proportion": 0.07575757575757576,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->A->A->A->A",
+      "length": 5,
+      "frequency": 4,
+      "proportion": 0.06060606060606061,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "B->B->B->B->C",
+      "length": 5,
+      "frequency": 4,
+      "proportion": 0.06060606060606061,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "B->B->B->C->C",
+      "length": 5,
+      "frequency": 4,
+      "proportion": 0.06060606060606061,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "B->B->C->C->C",
+      "length": 5,
+      "frequency": 4,
+      "proportion": 0.06060606060606061,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "A->A->A->B->B",
+      "length": 5,
+      "frequency": 3,
+      "proportion": 0.04545454545454546,
+      "count": 3,
+      "support": 0.5,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->C->C->C->C",
+      "length": 5,
+      "frequency": 3,
+      "proportion": 0.04545454545454546,
+      "count": 3,
+      "support": 0.5,
+      "lift": 0.5
+    },
+    {
+      "pattern": "C->C->C->C->A",
+      "length": 5,
+      "frequency": 3,
+      "proportion": 0.04545454545454546,
+      "count": 3,
+      "support": 0.5,
+      "lift": 0.5
+    },
+    {
+      "pattern": "A->A->A->A->B",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.0303030303030303,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "B->B->B->B->A",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.0303030303030303,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "B->B->B->A->A",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.0303030303030303,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "B->B->A->A->A",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.0303030303030303,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "A->A->A->A->A",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.0303030303030303,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "B->B->B->B->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "B->A->A->A->A",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "A->A->A->A->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "A->A->A->C->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "B->C->C->C->A",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "A->A->C->C->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "A->C->C->C->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "C->C->C->C->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "C->C->C->B->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "C->C->B->B->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "B->A->A->A->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    }
+  ],
+  "pat_d6_gp13": [
+    {
+      "pattern": "A->*->A",
+      "length": 3,
+      "frequency": 17,
+      "proportion": 0.217948717948718,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "C->***->A",
+      "length": 5,
+      "frequency": 17,
+      "proportion": 0.2575757575757576,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "B->***->C",
+      "length": 5,
+      "frequency": 16,
+      "proportion": 0.2424242424242424,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->**->A",
+      "length": 4,
+      "frequency": 15,
+      "proportion": 0.2083333333333333,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "A->***->B",
+      "length": 5,
+      "frequency": 15,
+      "proportion": 0.2272727272727273,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "B->*->B",
+      "length": 3,
+      "frequency": 14,
+      "proportion": 0.1794871794871795,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "A->**->B",
+      "length": 4,
+      "frequency": 13,
+      "proportion": 0.1805555555555556,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "B->**->C",
+      "length": 4,
+      "frequency": 12,
+      "proportion": 0.1666666666666667,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "A->*->B",
+      "length": 3,
+      "frequency": 10,
+      "proportion": 0.1282051282051282,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->*->C",
+      "length": 3,
+      "frequency": 10,
+      "proportion": 0.1282051282051282,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "C->*->A",
+      "length": 3,
+      "frequency": 10,
+      "proportion": 0.1282051282051282,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "B->*->C",
+      "length": 3,
+      "frequency": 8,
+      "proportion": 0.1025641025641026,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "A->**->A",
+      "length": 4,
+      "frequency": 8,
+      "proportion": 0.1111111111111111,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "B->***->A",
+      "length": 5,
+      "frequency": 8,
+      "proportion": 0.1212121212121212,
+      "count": 3,
+      "support": 0.5,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->**->B",
+      "length": 4,
+      "frequency": 7,
+      "proportion": 0.09722222222222222,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "B->**->A",
+      "length": 4,
+      "frequency": 6,
+      "proportion": 0.08333333333333333,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "B->*->A",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.05128205128205128,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "A->**->C",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.05555555555555555,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "C->**->C",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.05555555555555555,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "A->***->C",
+      "length": 5,
+      "frequency": 4,
+      "proportion": 0.06060606060606061,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "A->*->C",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.03846153846153846,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "C->**->B",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.04166666666666666,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "C->***->B",
+      "length": 5,
+      "frequency": 3,
+      "proportion": 0.04545454545454546,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "C->*->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.02564102564102564,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "A->***->A",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.0303030303030303,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "B->***->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.01515151515151515,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    }
+  ],
+  "pat_d6_rp25": [
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 28,
+      "proportion": 0.4307692307692308,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 21,
+      "proportion": 0.3230769230769231,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "A->A->A",
+      "length": 3,
+      "frequency": 17,
+      "proportion": 0.4146341463414634,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 16,
+      "proportion": 0.2461538461538462,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "B->B->B",
+      "length": 3,
+      "frequency": 14,
+      "proportion": 0.3414634146341464,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "C->C->C",
+      "length": 3,
+      "frequency": 10,
+      "proportion": 0.2439024390243902,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "A->A->A->A",
+      "length": 4,
+      "frequency": 8,
+      "proportion": 0.4210526315789473,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "B->B->B->B",
+      "length": 4,
+      "frequency": 7,
+      "proportion": 0.3684210526315789,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "C->C->C->C",
+      "length": 4,
+      "frequency": 4,
+      "proportion": 0.2105263157894737,
+      "count": 4,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "A->A->A->A->A",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.6666666666666666,
+      "count": 2,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "B->B->B->B->B",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.3333333333333333,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    }
+  ],
+  "pat_d7_ng2": [
+    {
+      "pattern": "X->X",
+      "length": 2,
+      "frequency": 9,
+      "proportion": 0.4736842105263158,
+      "count": 2,
+      "support": 0.5,
+      "lift": 2
+    },
+    {
+      "pattern": "Y->Y",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.2631578947368421,
+      "count": 1,
+      "support": 0.25,
+      "lift": 4
+    },
+    {
+      "pattern": "Z->Z",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.2631578947368421,
+      "count": 1,
+      "support": 0.25,
+      "lift": 4
+    }
+  ],
+  "pat_d7_rp26": [
+    {
+      "pattern": "X->X",
+      "length": 2,
+      "frequency": 9,
+      "proportion": 0.4736842105263158,
+      "count": 2,
+      "support": 0.5,
+      "lift": 2
+    },
+    {
+      "pattern": "X->X->X",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.4666666666666667,
+      "count": 2,
+      "support": 0.5,
+      "lift": 4
+    },
+    {
+      "pattern": "Y->Y",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.2631578947368421,
+      "count": 1,
+      "support": 0.25,
+      "lift": 4
+    },
+    {
+      "pattern": "Z->Z",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.2631578947368421,
+      "count": 1,
+      "support": 0.25,
+      "lift": 4
+    },
+    {
+      "pattern": "X->X->X->X",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.4545454545454545,
+      "count": 2,
+      "support": 0.5,
+      "lift": 8
+    },
+    {
+      "pattern": "Y->Y->Y",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.2666666666666667,
+      "count": 1,
+      "support": 0.25,
+      "lift": 16
+    },
+    {
+      "pattern": "Z->Z->Z",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.2666666666666667,
+      "count": 1,
+      "support": 0.25,
+      "lift": 16
+    },
+    {
+      "pattern": "Y->Y->Y->Y",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.2727272727272727,
+      "count": 1,
+      "support": 0.25,
+      "lift": 64
+    },
+    {
+      "pattern": "Z->Z->Z->Z",
+      "length": 4,
+      "frequency": 3,
+      "proportion": 0.2727272727272727,
+      "count": 1,
+      "support": 0.25,
+      "lift": 64
+    },
+    {
+      "pattern": "X->X->X->X->X",
+      "length": 5,
+      "frequency": 3,
+      "proportion": 0.4285714285714285,
+      "count": 2,
+      "support": 0.5,
+      "lift": 16
+    },
+    {
+      "pattern": "Y->Y->Y->Y->Y",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.2857142857142857,
+      "count": 1,
+      "support": 0.25,
+      "lift": 256
+    },
+    {
+      "pattern": "Z->Z->Z->Z->Z",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.2857142857142857,
+      "count": 1,
+      "support": 0.25,
+      "lift": 256
+    },
+    {
+      "pattern": "X->X->X->X->X->X",
+      "length": 6,
+      "frequency": 1,
+      "proportion": 0.3333333333333333,
+      "count": 1,
+      "support": 0.25,
+      "lift": 16
+    },
+    {
+      "pattern": "Y->Y->Y->Y->Y->Y",
+      "length": 6,
+      "frequency": 1,
+      "proportion": 0.3333333333333333,
+      "count": 1,
+      "support": 0.25,
+      "lift": 1024
+    },
+    {
+      "pattern": "Z->Z->Z->Z->Z->Z",
+      "length": 6,
+      "frequency": 1,
+      "proportion": 0.3333333333333333,
+      "count": 1,
+      "support": 0.25,
+      "lift": 1024
+    }
+  ],
+  "pat_custom_CwwwA": [
+    {
+      "pattern": "C->A->B->C->A",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 1,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.15625
+    }
+  ],
+  "pat_custom_AwBwC": [
+    {
+      "pattern": "A->C->B->A->C",
+      "length": 5,
+      "frequency": 2,
+      "proportion": 0.5,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->A->B->B->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.25,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.125
+    },
+    {
+      "pattern": "A->B->B->C->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.25,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.15625
+    }
+  ],
+  "pat_d6_custom_AwA": [
+    {
+      "pattern": "A->A->A",
+      "length": 3,
+      "frequency": 17,
+      "proportion": 1,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    }
+  ],
+  "pat_d6_custom_BwwB": [
+    {
+      "pattern": "B->B->B->B",
+      "length": 4,
+      "frequency": 7,
+      "proportion": 1,
+      "count": 6,
+      "support": 1,
+      "lift": 1
+    }
+  ],
+  "pat_d6_custom_AwwwC": [
+    {
+      "pattern": "A->A->A->A->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.25,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "A->A->A->C->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.25,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "A->A->C->C->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.25,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    },
+    {
+      "pattern": "A->C->C->C->C",
+      "length": 5,
+      "frequency": 1,
+      "proportion": 0.25,
+      "count": 1,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    }
+  ],
+  "pat_d6_custom_CwwA": [
+    {
+      "pattern": "C->C->C->A",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.3333333333333333,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->C->A->A",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.3333333333333333,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->A->A->A",
+      "length": 4,
+      "frequency": 5,
+      "proportion": 0.3333333333333333,
+      "count": 5,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    }
+  ],
+  "pat_d3_custom_HwW": [
+    {
+      "pattern": "High->Low->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.3333333333333333,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1428571428571428
+    },
+    {
+      "pattern": "High->High->Work",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.3333333333333333,
+      "count": 2,
+      "support": 0.1333333333333333,
+      "lift": 0.1333333333333333
+    },
+    {
+      "pattern": "High->Work->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.1666666666666667,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.06666666666666667
+    },
+    {
+      "pattern": "High->Rest->Work",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.1666666666666667,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09090909090909091
+    }
+  ],
+  "pat_d3_custom_LwwH": [
+    {
+      "pattern": "Low->Med->Med->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.5,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.09509721048182587
+    },
+    {
+      "pattern": "Low->Work->High->High",
+      "length": 4,
+      "frequency": 1,
+      "proportion": 0.5,
+      "count": 1,
+      "support": 0.06666666666666667,
+      "lift": 0.07142857142857142
+    }
+  ],
+  "pat_d4_custom_OnwOff": [
+    {
+      "pattern": "On->Off->Off",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.5714285714285714,
+      "count": 4,
+      "support": 0.4,
+      "lift": 0.4938271604938271
+    },
+    {
+      "pattern": "On->On->Off",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.4285714285714285,
+      "count": 3,
+      "support": 0.3,
+      "lift": 0.3333333333333333
+    }
+  ],
+  "pat_startA_endC": [
+    {
+      "pattern": "A->B->C",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 1,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.25
+    }
+  ],
+  "pat_containAB": [
+    {
+      "pattern": "A->B->A",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.15,
+      "count": 4,
+      "support": 0.4,
+      "lift": 0.4
+    },
+    {
+      "pattern": "B->A->C",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.125,
+      "count": 4,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "A->C->B",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.125,
+      "count": 4,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->A->B",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "A->B->C",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.075,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "C->A->B",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.075,
+      "count": 3,
+      "support": 0.3,
+      "lift": 0.3749999999999999
+    },
+    {
+      "pattern": "B->C->A",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.075,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "C->B->A",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.075,
+      "count": 3,
+      "support": 0.3,
+      "lift": 0.3749999999999999
+    },
+    {
+      "pattern": "A->A->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.05,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "A->B->B",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.05,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.2
+    },
+    {
+      "pattern": "C->C->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.025,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.15625
+    },
+    {
+      "pattern": "C->A->A",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.025,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.125
+    },
+    {
+      "pattern": "B->B->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.025,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.125
+    },
+    {
+      "pattern": "B->C->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.025,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.15625
+    }
+  ],
+  "pat_startB_containC": [
+    {
+      "pattern": "B->A->C",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.5,
+      "count": 4,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->C->A",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.3,
+      "count": 2,
+      "support": 0.2,
+      "lift": 0.25
+    },
+    {
+      "pattern": "B->B->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.1,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.125
+    },
+    {
+      "pattern": "B->C->C",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.1,
+      "count": 1,
+      "support": 0.1,
+      "lift": 0.15625
+    }
+  ],
+  "pat_d3_startHigh": [
+    {
+      "pattern": "High->High",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.2352941176470588,
+      "count": 5,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "High->Work",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.2352941176470588,
+      "count": 7,
+      "support": 0.4666666666666667,
+      "lift": 0.4666666666666667
+    },
+    {
+      "pattern": "High->Low",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.2058823529411765,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.4285714285714286
+    },
+    {
+      "pattern": "High->Rest",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.1764705882352941,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.5454545454545455
+    },
+    {
+      "pattern": "High->Med",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.1470588235294118,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3076923076923077
+    }
+  ],
+  "pat_d3_endWork": [
+    {
+      "pattern": "Low->Work",
+      "length": 2,
+      "frequency": 9,
+      "proportion": 0.2571428571428571,
+      "count": 7,
+      "support": 0.4666666666666667,
+      "lift": 0.5
+    },
+    {
+      "pattern": "High->Work",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.2285714285714286,
+      "count": 7,
+      "support": 0.4666666666666667,
+      "lift": 0.4666666666666667
+    },
+    {
+      "pattern": "Rest->Work",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.2,
+      "count": 6,
+      "support": 0.4,
+      "lift": 0.5454545454545455
+    },
+    {
+      "pattern": "Med->Work",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.1714285714285714,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.3076923076923077
+    },
+    {
+      "pattern": "Work->Work",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.1428571428571428,
+      "count": 4,
+      "support": 0.2666666666666667,
+      "lift": 0.2666666666666667
+    }
+  ],
+  "pat_d8_startP_endS": [
+    {
+      "pattern": "P->R->S",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.8333333333333334,
+      "count": 5,
+      "support": 0.1666666666666667,
+      "lift": 0.2125850340136054
+    },
+    {
+      "pattern": "P->P->S",
+      "length": 3,
+      "frequency": 1,
+      "proportion": 0.1666666666666667,
+      "count": 1,
+      "support": 0.03333333333333333,
+      "lift": 0.04099854227405247
+    }
+  ],
+  "pat_d8_mf3_ms01": [
+    {
+      "pattern": "S->P",
+      "length": 2,
+      "frequency": 20,
+      "proportion": 0.0970873786407767,
+      "count": 17,
+      "support": 0.5666666666666667,
+      "lift": 0.6505102040816326
+    },
+    {
+      "pattern": "P->P",
+      "length": 2,
+      "frequency": 18,
+      "proportion": 0.08737864077669903,
+      "count": 11,
+      "support": 0.3666666666666666,
+      "lift": 0.4209183673469387
+    },
+    {
+      "pattern": "P->S",
+      "length": 2,
+      "frequency": 18,
+      "proportion": 0.08737864077669903,
+      "count": 14,
+      "support": 0.4666666666666667,
+      "lift": 0.5357142857142857
+    },
+    {
+      "pattern": "P->R",
+      "length": 2,
+      "frequency": 17,
+      "proportion": 0.0825242718446602,
+      "count": 14,
+      "support": 0.4666666666666667,
+      "lift": 0.5555555555555555
+    },
+    {
+      "pattern": "Q->P",
+      "length": 2,
+      "frequency": 16,
+      "proportion": 0.07766990291262135,
+      "count": 14,
+      "support": 0.4666666666666667,
+      "lift": 0.5555555555555555
+    },
+    {
+      "pattern": "R->S",
+      "length": 2,
+      "frequency": 15,
+      "proportion": 0.07281553398058252,
+      "count": 13,
+      "support": 0.4333333333333333,
+      "lift": 0.5158730158730158
+    },
+    {
+      "pattern": "S->Q",
+      "length": 2,
+      "frequency": 14,
+      "proportion": 0.06796116504854369,
+      "count": 12,
+      "support": 0.4,
+      "lift": 0.4761904761904762
+    },
+    {
+      "pattern": "Q->S",
+      "length": 2,
+      "frequency": 13,
+      "proportion": 0.06310679611650485,
+      "count": 12,
+      "support": 0.4,
+      "lift": 0.4761904761904762
+    },
+    {
+      "pattern": "R->Q",
+      "length": 2,
+      "frequency": 12,
+      "proportion": 0.05825242718446602,
+      "count": 12,
+      "support": 0.4,
+      "lift": 0.4938271604938271
+    },
+    {
+      "pattern": "Q->Q",
+      "length": 2,
+      "frequency": 10,
+      "proportion": 0.04854368932038835,
+      "count": 9,
+      "support": 0.3,
+      "lift": 0.3703703703703703
+    },
+    {
+      "pattern": "Q->R",
+      "length": 2,
+      "frequency": 10,
+      "proportion": 0.04854368932038835,
+      "count": 10,
+      "support": 0.3333333333333333,
+      "lift": 0.4115226337448559
+    },
+    {
+      "pattern": "P->Q",
+      "length": 2,
+      "frequency": 10,
+      "proportion": 0.04854368932038835,
+      "count": 10,
+      "support": 0.3333333333333333,
+      "lift": 0.3968253968253967
+    },
+    {
+      "pattern": "R->R",
+      "length": 2,
+      "frequency": 9,
+      "proportion": 0.04368932038834952,
+      "count": 7,
+      "support": 0.2333333333333333,
+      "lift": 0.2880658436213991
+    },
+    {
+      "pattern": "S->S",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.03883495145631068,
+      "count": 8,
+      "support": 0.2666666666666667,
+      "lift": 0.3061224489795918
+    },
+    {
+      "pattern": "R->P",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.03883495145631068,
+      "count": 7,
+      "support": 0.2333333333333333,
+      "lift": 0.2777777777777777
+    },
+    {
+      "pattern": "S->R",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.03883495145631068,
+      "count": 7,
+      "support": 0.2333333333333333,
+      "lift": 0.2777777777777777
+    }
+  ],
+  "pat_grp_d1": [
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.2258064516129032,
+      "count": 3,
+      "count_G1": 1,
+      "count_G2": 2,
+      "chisq": 0.3333333333333333,
+      "p_value": 0.563702861650773,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "A->B",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1290322580645161,
+      "count": 3,
+      "count_G1": 3,
+      "count_G2": 0,
+      "chisq": 3,
+      "p_value": 0.08326451666355036,
+      "support": 0.6,
+      "lift": 0.7499999999999999
+    },
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1290322580645161,
+      "count": 2,
+      "count_G1": 1,
+      "count_G2": 1,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 0.4,
+      "lift": 0.6249999999999999
+    },
+    {
+      "pattern": "B->A",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.1290322580645161,
+      "count": 3,
+      "count_G1": 2,
+      "count_G2": 1,
+      "chisq": 0.3333333333333333,
+      "p_value": 0.563702861650773,
+      "support": 0.6,
+      "lift": 0.7499999999999999
+    },
+    {
+      "pattern": "C->A",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 2,
+      "count_G1": 2,
+      "count_G2": 0,
+      "chisq": 2,
+      "p_value": 0.157299207050284,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "B->C",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 1,
+      "count_G1": 1,
+      "count_G2": 0,
+      "chisq": 1,
+      "p_value": 0.3173105078629141,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "A->C",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.09677419354838709,
+      "count": 2,
+      "count_G1": 1,
+      "count_G2": 1,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 0.4,
+      "lift": 0.5
+    },
+    {
+      "pattern": "C->B",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.06451612903225806,
+      "count": 1,
+      "count_G1": 1,
+      "count_G2": 0,
+      "chisq": 1,
+      "p_value": 0.3173105078629141,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 1,
+      "proportion": 0.03225806451612903,
+      "count": 1,
+      "count_G1": 0,
+      "count_G2": 1,
+      "chisq": 1,
+      "p_value": 0.3173105078629141,
+      "support": 0.2,
+      "lift": 0.3124999999999999
+    }
+  ],
+  "pat_grp_d2": [
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 31,
+      "proportion": 0.1856287425149701,
+      "count": 13,
+      "count_Alpha": 9,
+      "count_Beta": 4,
+      "chisq": 1.923076923076923,
+      "p_value": 0.16551785869747,
+      "support": 0.65,
+      "lift": 0.65
+    },
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 24,
+      "proportion": 0.1437125748502994,
+      "count": 11,
+      "count_Alpha": 4,
+      "count_Beta": 7,
+      "chisq": 0.8181818181818182,
+      "p_value": 0.3657122962815133,
+      "support": 0.55,
+      "lift": 0.55
+    },
+    {
+      "pattern": "B->A",
+      "length": 2,
+      "frequency": 22,
+      "proportion": 0.1317365269461078,
+      "count": 15,
+      "count_Alpha": 7,
+      "count_Beta": 8,
+      "chisq": 0.06666666666666667,
+      "p_value": 0.7962534147376392,
+      "support": 0.75,
+      "lift": 0.75
+    },
+    {
+      "pattern": "A->B",
+      "length": 2,
+      "frequency": 20,
+      "proportion": 0.1197604790419162,
+      "count": 16,
+      "count_Alpha": 7,
+      "count_Beta": 9,
+      "chisq": 0.25,
+      "p_value": 0.6170750774519738,
+      "support": 0.8,
+      "lift": 0.8
+    },
+    {
+      "pattern": "C->B",
+      "length": 2,
+      "frequency": 18,
+      "proportion": 0.1077844311377246,
+      "count": 14,
+      "count_Alpha": 7,
+      "count_Beta": 7,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 0.7,
+      "lift": 0.7
+    },
+    {
+      "pattern": "A->C",
+      "length": 2,
+      "frequency": 17,
+      "proportion": 0.1017964071856287,
+      "count": 15,
+      "count_Alpha": 7,
+      "count_Beta": 8,
+      "chisq": 0.06666666666666667,
+      "p_value": 0.7962534147376392,
+      "support": 0.75,
+      "lift": 0.75
+    },
+    {
+      "pattern": "B->C",
+      "length": 2,
+      "frequency": 17,
+      "proportion": 0.1017964071856287,
+      "count": 15,
+      "count_Alpha": 9,
+      "count_Beta": 6,
+      "chisq": 0.6,
+      "p_value": 0.4385780260809999,
+      "support": 0.75,
+      "lift": 0.75
+    },
+    {
+      "pattern": "C->A",
+      "length": 2,
+      "frequency": 15,
+      "proportion": 0.08982035928143713,
+      "count": 12,
+      "count_Alpha": 6,
+      "count_Beta": 6,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.01796407185628742,
+      "count": 3,
+      "count_Alpha": 2,
+      "count_Beta": 1,
+      "chisq": 0.3333333333333333,
+      "p_value": 0.563702861650773,
+      "support": 0.15,
+      "lift": 0.15
+    }
+  ],
+  "pat_grp_d3": [
+    {
+      "pattern": "Work->High",
+      "length": 2,
+      "frequency": 12,
+      "proportion": 0.07547169811320754,
+      "count": 9,
+      "count_X": 4,
+      "count_Y": 2,
+      "count_Z": 3,
+      "chisq": 0.6666666666666666,
+      "p_value": 0.7165313105737894,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "Med->High",
+      "length": 2,
+      "frequency": 10,
+      "proportion": 0.06289308176100629,
+      "count": 9,
+      "count_X": 5,
+      "count_Y": 3,
+      "count_Z": 1,
+      "chisq": 2.666666666666667,
+      "p_value": 0.2635971381157268,
+      "support": 0.6,
+      "lift": 0.6923076923076923
+    },
+    {
+      "pattern": "Work->Low",
+      "length": 2,
+      "frequency": 10,
+      "proportion": 0.06289308176100629,
+      "count": 9,
+      "count_X": 2,
+      "count_Y": 3,
+      "count_Z": 4,
+      "chisq": 0.6666666666666666,
+      "p_value": 0.7165313105737894,
+      "support": 0.6,
+      "lift": 0.6428571428571428
+    },
+    {
+      "pattern": "Low->Work",
+      "length": 2,
+      "frequency": 9,
+      "proportion": 0.05660377358490566,
+      "count": 7,
+      "count_X": 0,
+      "count_Y": 3,
+      "count_Z": 4,
+      "chisq": 3.714285714285714,
+      "p_value": 0.1561180453159711,
+      "support": 0.4666666666666667,
+      "lift": 0.5
+    },
+    {
+      "pattern": "Rest->Rest",
+      "length": 2,
+      "frequency": 9,
+      "proportion": 0.05660377358490566,
+      "count": 5,
+      "count_X": 3,
+      "count_Y": 0,
+      "count_Z": 2,
+      "chisq": 2.8,
+      "p_value": 0.2465969639416064,
+      "support": 0.3333333333333333,
+      "lift": 0.6198347107438017
+    },
+    {
+      "pattern": "High->High",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.05031446540880503,
+      "count": 5,
+      "count_X": 3,
+      "count_Y": 1,
+      "count_Z": 1,
+      "chisq": 1.6,
+      "p_value": 0.4493289641172216,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "High->Work",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.05031446540880503,
+      "count": 7,
+      "count_X": 3,
+      "count_Y": 4,
+      "count_Z": 0,
+      "chisq": 3.714285714285714,
+      "p_value": 0.1561180453159711,
+      "support": 0.4666666666666667,
+      "lift": 0.4666666666666667
+    },
+    {
+      "pattern": "Med->Low",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.0440251572327044,
+      "count": 7,
+      "count_X": 0,
+      "count_Y": 4,
+      "count_Z": 3,
+      "chisq": 3.714285714285714,
+      "p_value": 0.1561180453159711,
+      "support": 0.4666666666666667,
+      "lift": 0.576923076923077
+    },
+    {
+      "pattern": "High->Low",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.0440251572327044,
+      "count": 6,
+      "count_X": 3,
+      "count_Y": 1,
+      "count_Z": 2,
+      "chisq": 1,
+      "p_value": 0.6065306597126334,
+      "support": 0.4,
+      "lift": 0.4285714285714286
+    },
+    {
+      "pattern": "Rest->Work",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.0440251572327044,
+      "count": 6,
+      "count_X": 3,
+      "count_Y": 1,
+      "count_Z": 2,
+      "chisq": 1,
+      "p_value": 0.6065306597126334,
+      "support": 0.4,
+      "lift": 0.5454545454545455
+    },
+    {
+      "pattern": "Med->Med",
+      "length": 2,
+      "frequency": 7,
+      "proportion": 0.0440251572327044,
+      "count": 5,
+      "count_X": 2,
+      "count_Y": 1,
+      "count_Z": 2,
+      "chisq": 0.4,
+      "p_value": 0.8187307530779818,
+      "support": 0.3333333333333333,
+      "lift": 0.4437869822485206
+    },
+    {
+      "pattern": "Low->Med",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.03773584905660377,
+      "count": 5,
+      "count_X": 3,
+      "count_Y": 0,
+      "count_Z": 2,
+      "chisq": 2.8,
+      "p_value": 0.2465969639416064,
+      "support": 0.3333333333333333,
+      "lift": 0.4120879120879121
+    },
+    {
+      "pattern": "Low->Rest",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.03773584905660377,
+      "count": 6,
+      "count_X": 1,
+      "count_Y": 3,
+      "count_Z": 2,
+      "chisq": 1,
+      "p_value": 0.6065306597126334,
+      "support": 0.4,
+      "lift": 0.5844155844155845
+    },
+    {
+      "pattern": "Work->Med",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.03773584905660377,
+      "count": 5,
+      "count_X": 0,
+      "count_Y": 2,
+      "count_Z": 3,
+      "chisq": 2.8,
+      "p_value": 0.2465969639416065,
+      "support": 0.3333333333333333,
+      "lift": 0.3846153846153846
+    },
+    {
+      "pattern": "Med->Work",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.03773584905660377,
+      "count": 4,
+      "count_X": 1,
+      "count_Y": 1,
+      "count_Z": 2,
+      "chisq": 0.5,
+      "p_value": 0.7788007830714049,
+      "support": 0.2666666666666667,
+      "lift": 0.3076923076923077
+    },
+    {
+      "pattern": "High->Rest",
+      "length": 2,
+      "frequency": 6,
+      "proportion": 0.03773584905660377,
+      "count": 6,
+      "count_X": 2,
+      "count_Y": 0,
+      "count_Z": 4,
+      "chisq": 4,
+      "p_value": 0.1353352832366127,
+      "support": 0.4,
+      "lift": 0.5454545454545455
+    },
+    {
+      "pattern": "High->Med",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.03144654088050314,
+      "count": 4,
+      "count_X": 2,
+      "count_Y": 2,
+      "count_Z": 0,
+      "chisq": 2,
+      "p_value": 0.3678794411714423,
+      "support": 0.2666666666666667,
+      "lift": 0.3076923076923077
+    },
+    {
+      "pattern": "Work->Work",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.03144654088050314,
+      "count": 4,
+      "count_X": 2,
+      "count_Y": 0,
+      "count_Z": 2,
+      "chisq": 2,
+      "p_value": 0.3678794411714423,
+      "support": 0.2666666666666667,
+      "lift": 0.2666666666666667
+    },
+    {
+      "pattern": "Low->High",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.03144654088050314,
+      "count": 4,
+      "count_X": 2,
+      "count_Y": 1,
+      "count_Z": 1,
+      "chisq": 0.5,
+      "p_value": 0.7788007830714049,
+      "support": 0.2666666666666667,
+      "lift": 0.2857142857142857
+    },
+    {
+      "pattern": "Rest->High",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.02515723270440252,
+      "count": 4,
+      "count_X": 2,
+      "count_Y": 1,
+      "count_Z": 1,
+      "chisq": 0.5,
+      "p_value": 0.7788007830714049,
+      "support": 0.2666666666666667,
+      "lift": 0.3636363636363636
+    },
+    {
+      "pattern": "Rest->Med",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.02515723270440252,
+      "count": 4,
+      "count_X": 1,
+      "count_Y": 2,
+      "count_Z": 1,
+      "chisq": 0.5,
+      "p_value": 0.7788007830714049,
+      "support": 0.2666666666666667,
+      "lift": 0.4195804195804196
+    },
+    {
+      "pattern": "Low->Low",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.02515723270440252,
+      "count": 4,
+      "count_X": 1,
+      "count_Y": 2,
+      "count_Z": 1,
+      "chisq": 0.5,
+      "p_value": 0.7788007830714049,
+      "support": 0.2666666666666667,
+      "lift": 0.3061224489795918
+    },
+    {
+      "pattern": "Med->Rest",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.01886792452830189,
+      "count": 3,
+      "count_X": 2,
+      "count_Y": 1,
+      "count_Z": 0,
+      "chisq": 2,
+      "p_value": 0.3678794411714423,
+      "support": 0.2,
+      "lift": 0.3146853146853147
+    },
+    {
+      "pattern": "Rest->Low",
+      "length": 2,
+      "frequency": 3,
+      "proportion": 0.01886792452830189,
+      "count": 3,
+      "count_X": 0,
+      "count_Y": 2,
+      "count_Z": 1,
+      "chisq": 2,
+      "p_value": 0.3678794411714423,
+      "support": 0.2,
+      "lift": 0.2922077922077922
+    },
+    {
+      "pattern": "Work->Rest",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.01257861635220126,
+      "count": 1,
+      "count_X": 0,
+      "count_Y": 1,
+      "count_Z": 0,
+      "chisq": 2,
+      "p_value": 0.3678794411714422,
+      "support": 0.06666666666666667,
+      "lift": 0.09090909090909091
+    }
+  ],
+  "pat_grp_d6": [
+    {
+      "pattern": "A->A",
+      "length": 2,
+      "frequency": 28,
+      "proportion": 0.3333333333333333,
+      "count": 6,
+      "count_A": 3,
+      "count_B": 3,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "B->B",
+      "length": 2,
+      "frequency": 21,
+      "proportion": 0.25,
+      "count": 6,
+      "count_A": 3,
+      "count_B": 3,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "C->C",
+      "length": 2,
+      "frequency": 16,
+      "proportion": 0.1904761904761905,
+      "count": 6,
+      "count_A": 3,
+      "count_B": 3,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 1,
+      "lift": 1
+    },
+    {
+      "pattern": "A->B",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.05952380952380952,
+      "count": 5,
+      "count_A": 3,
+      "count_B": 2,
+      "chisq": 0.2,
+      "p_value": 0.6547208460185771,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "C->A",
+      "length": 2,
+      "frequency": 5,
+      "proportion": 0.05952380952380952,
+      "count": 5,
+      "count_A": 3,
+      "count_B": 2,
+      "chisq": 0.2,
+      "p_value": 0.6547208460185771,
+      "support": 0.8333333333333334,
+      "lift": 0.8333333333333334
+    },
+    {
+      "pattern": "B->C",
+      "length": 2,
+      "frequency": 4,
+      "proportion": 0.04761904761904762,
+      "count": 4,
+      "count_A": 2,
+      "count_B": 2,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 0.6666666666666666,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "B->A",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.02380952380952381,
+      "count": 2,
+      "count_A": 1,
+      "count_B": 1,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "A->C",
+      "length": 2,
+      "frequency": 2,
+      "proportion": 0.02380952380952381,
+      "count": 2,
+      "count_A": 1,
+      "count_B": 1,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 0.3333333333333333,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "C->B",
+      "length": 2,
+      "frequency": 1,
+      "proportion": 0.0119047619047619,
+      "count": 1,
+      "count_A": 0,
+      "count_B": 1,
+      "chisq": 1,
+      "p_value": 0.3173105078629141,
+      "support": 0.1666666666666667,
+      "lift": 0.1666666666666667
+    }
+  ],
+  "pat_grp_d8_gp1": [
+    {
+      "pattern": "P->*->P",
+      "length": 3,
+      "frequency": 21,
+      "proportion": 0.1193181818181818,
+      "count": 15,
+      "count_Lo": 7,
+      "count_Mi": 3,
+      "count_Hi": 5,
+      "chisq": 1.6,
+      "p_value": 0.4493289641172216,
+      "support": 0.5,
+      "lift": 0.5739795918367346
+    },
+    {
+      "pattern": "Q->*->S",
+      "length": 3,
+      "frequency": 17,
+      "proportion": 0.09659090909090909,
+      "count": 14,
+      "count_Lo": 6,
+      "count_Mi": 5,
+      "count_Hi": 3,
+      "chisq": 1,
+      "p_value": 0.6065306597126333,
+      "support": 0.4666666666666667,
+      "lift": 0.5555555555555555
+    },
+    {
+      "pattern": "S->*->P",
+      "length": 3,
+      "frequency": 13,
+      "proportion": 0.07386363636363637,
+      "count": 11,
+      "count_Lo": 5,
+      "count_Mi": 4,
+      "count_Hi": 2,
+      "chisq": 1.272727272727273,
+      "p_value": 0.5292133415000502,
+      "support": 0.3666666666666666,
+      "lift": 0.4209183673469387
+    },
+    {
+      "pattern": "P->*->R",
+      "length": 3,
+      "frequency": 13,
+      "proportion": 0.07386363636363637,
+      "count": 12,
+      "count_Lo": 5,
+      "count_Mi": 3,
+      "count_Hi": 4,
+      "chisq": 0.5,
+      "p_value": 0.7788007830714049,
+      "support": 0.4,
+      "lift": 0.4761904761904762
+    },
+    {
+      "pattern": "P->*->Q",
+      "length": 3,
+      "frequency": 12,
+      "proportion": 0.06818181818181818,
+      "count": 10,
+      "count_Lo": 3,
+      "count_Mi": 4,
+      "count_Hi": 3,
+      "chisq": 0.2,
+      "p_value": 0.9048374180359596,
+      "support": 0.3333333333333333,
+      "lift": 0.3968253968253967
+    },
+    {
+      "pattern": "R->*->P",
+      "length": 3,
+      "frequency": 12,
+      "proportion": 0.06818181818181818,
+      "count": 11,
+      "count_Lo": 5,
+      "count_Mi": 3,
+      "count_Hi": 3,
+      "chisq": 0.7272727272727273,
+      "p_value": 0.6951439283988787,
+      "support": 0.3666666666666666,
+      "lift": 0.4365079365079365
+    },
+    {
+      "pattern": "R->*->Q",
+      "length": 3,
+      "frequency": 12,
+      "proportion": 0.06818181818181818,
+      "count": 11,
+      "count_Lo": 3,
+      "count_Mi": 4,
+      "count_Hi": 4,
+      "chisq": 0.1818181818181818,
+      "p_value": 0.9131007162822623,
+      "support": 0.3666666666666666,
+      "lift": 0.4526748971193415
+    },
+    {
+      "pattern": "S->*->S",
+      "length": 3,
+      "frequency": 11,
+      "proportion": 0.0625,
+      "count": 10,
+      "count_Lo": 4,
+      "count_Mi": 4,
+      "count_Hi": 2,
+      "chisq": 0.8,
+      "p_value": 0.6703200460356393,
+      "support": 0.3333333333333333,
+      "lift": 0.3826530612244898
+    },
+    {
+      "pattern": "S->*->Q",
+      "length": 3,
+      "frequency": 10,
+      "proportion": 0.05681818181818182,
+      "count": 9,
+      "count_Lo": 1,
+      "count_Mi": 4,
+      "count_Hi": 4,
+      "chisq": 2,
+      "p_value": 0.3678794411714425,
+      "support": 0.3,
+      "lift": 0.3571428571428571
+    },
+    {
+      "pattern": "S->*->R",
+      "length": 3,
+      "frequency": 10,
+      "proportion": 0.05681818181818182,
+      "count": 10,
+      "count_Lo": 3,
+      "count_Mi": 2,
+      "count_Hi": 5,
+      "chisq": 1.4,
+      "p_value": 0.4965853037914095,
+      "support": 0.3333333333333333,
+      "lift": 0.3968253968253967
+    },
+    {
+      "pattern": "Q->*->P",
+      "length": 3,
+      "frequency": 9,
+      "proportion": 0.05113636363636364,
+      "count": 8,
+      "count_Lo": 2,
+      "count_Mi": 2,
+      "count_Hi": 4,
+      "chisq": 1,
+      "p_value": 0.6065306597126334,
+      "support": 0.2666666666666667,
+      "lift": 0.3174603174603174
+    },
+    {
+      "pattern": "Q->*->R",
+      "length": 3,
+      "frequency": 9,
+      "proportion": 0.05113636363636364,
+      "count": 8,
+      "count_Lo": 2,
+      "count_Mi": 3,
+      "count_Hi": 3,
+      "chisq": 0.25,
+      "p_value": 0.8824969025845953,
+      "support": 0.2666666666666667,
+      "lift": 0.3292181069958848
+    },
+    {
+      "pattern": "Q->*->Q",
+      "length": 3,
+      "frequency": 8,
+      "proportion": 0.04545454545454546,
+      "count": 7,
+      "count_Lo": 1,
+      "count_Mi": 4,
+      "count_Hi": 2,
+      "chisq": 2,
+      "p_value": 0.3678794411714423,
+      "support": 0.2333333333333333,
+      "lift": 0.2880658436213991
+    },
+    {
+      "pattern": "R->*->R",
+      "length": 3,
+      "frequency": 7,
+      "proportion": 0.03977272727272727,
+      "count": 5,
+      "count_Lo": 1,
+      "count_Mi": 2,
+      "count_Hi": 2,
+      "chisq": 0.4,
+      "p_value": 0.8187307530779818,
+      "support": 0.1666666666666667,
+      "lift": 0.205761316872428
+    },
+    {
+      "pattern": "P->*->S",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.03409090909090909,
+      "count": 6,
+      "count_Lo": 3,
+      "count_Mi": 0,
+      "count_Hi": 3,
+      "chisq": 3,
+      "p_value": 0.2231301601484298,
+      "support": 0.2,
+      "lift": 0.2295918367346939
+    },
+    {
+      "pattern": "R->*->S",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.03409090909090909,
+      "count": 6,
+      "count_Lo": 1,
+      "count_Mi": 2,
+      "count_Hi": 3,
+      "chisq": 1,
+      "p_value": 0.6065306597126334,
+      "support": 0.2,
+      "lift": 0.2380952380952381
+    }
+  ],
+  "pat_grp_d4": [
+    {
+      "pattern": "On->On",
+      "length": 2,
+      "frequency": 17,
+      "proportion": 0.3617021276595745,
+      "count": 7,
+      "count_Hi": 4,
+      "count_Lo": 3,
+      "chisq": 0.1428571428571428,
+      "p_value": 0.7054569861112735,
+      "support": 0.7,
+      "lift": 0.7
+    },
+    {
+      "pattern": "Off->Off",
+      "length": 2,
+      "frequency": 12,
+      "proportion": 0.2553191489361702,
+      "count": 7,
+      "count_Hi": 3,
+      "count_Lo": 4,
+      "chisq": 0.1428571428571428,
+      "p_value": 0.7054569861112735,
+      "support": 0.7,
+      "lift": 0.8641975308641974
+    },
+    {
+      "pattern": "Off->On",
+      "length": 2,
+      "frequency": 10,
+      "proportion": 0.2127659574468085,
+      "count": 9,
+      "count_Hi": 5,
+      "count_Lo": 4,
+      "chisq": 0.1111111111111111,
+      "p_value": 0.7388826803635273,
+      "support": 0.9,
+      "lift": 1
+    },
+    {
+      "pattern": "On->On->On",
+      "length": 3,
+      "frequency": 10,
+      "proportion": 0.2702702702702703,
+      "count": 6,
+      "count_Hi": 4,
+      "count_Lo": 2,
+      "chisq": 0.6666666666666666,
+      "p_value": 0.4142161782425251,
+      "support": 0.6,
+      "lift": 0.6
+    },
+    {
+      "pattern": "On->Off",
+      "length": 2,
+      "frequency": 8,
+      "proportion": 0.1702127659574468,
+      "count": 6,
+      "count_Hi": 2,
+      "count_Lo": 4,
+      "chisq": 0.6666666666666666,
+      "p_value": 0.4142161782425251,
+      "support": 0.6,
+      "lift": 0.6666666666666666
+    },
+    {
+      "pattern": "Off->Off->On",
+      "length": 3,
+      "frequency": 6,
+      "proportion": 0.1621621621621622,
+      "count": 6,
+      "count_Hi": 3,
+      "count_Lo": 3,
+      "chisq": 0,
+      "p_value": 1,
+      "support": 0.6,
+      "lift": 0.7407407407407407
+    },
+    {
+      "pattern": "Off->On->On",
+      "length": 3,
+      "frequency": 5,
+      "proportion": 0.1351351351351351,
+      "count": 5,
+      "count_Hi": 4,
+      "count_Lo": 1,
+      "chisq": 1.8,
+      "p_value": 0.1797124948789998,
+      "support": 0.5,
+      "lift": 0.5555555555555556
+    },
+    {
+      "pattern": "Off->Off->Off",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1081081081081081,
+      "count": 3,
+      "count_Hi": 2,
+      "count_Lo": 1,
+      "chisq": 0.3333333333333333,
+      "p_value": 0.563702861650773,
+      "support": 0.3,
+      "lift": 0.4115226337448559
+    },
+    {
+      "pattern": "On->Off->Off",
+      "length": 3,
+      "frequency": 4,
+      "proportion": 0.1081081081081081,
+      "count": 4,
+      "count_Hi": 0,
+      "count_Lo": 4,
+      "chisq": 4,
+      "p_value": 0.0455002638963583,
+      "support": 0.4,
+      "lift": 0.4938271604938271
+    },
+    {
+      "pattern": "On->Off->On",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.08108108108108109,
+      "count": 3,
+      "count_Hi": 2,
+      "count_Lo": 1,
+      "chisq": 0.3333333333333333,
+      "p_value": 0.563702861650773,
+      "support": 0.3,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "On->On->Off",
+      "length": 3,
+      "frequency": 3,
+      "proportion": 0.08108108108108109,
+      "count": 3,
+      "count_Hi": 1,
+      "count_Lo": 2,
+      "chisq": 0.3333333333333333,
+      "p_value": 0.563702861650773,
+      "support": 0.3,
+      "lift": 0.3333333333333333
+    },
+    {
+      "pattern": "Off->On->Off",
+      "length": 3,
+      "frequency": 2,
+      "proportion": 0.05405405405405406,
+      "count": 2,
+      "count_Hi": 0,
+      "count_Lo": 2,
+      "chisq": 2,
+      "p_value": 0.157299207050284,
+      "support": 0.2,
+      "lift": 0.2469135802469136
+    }
+  ],
   "pat_grp2_ng2": [
     {
       "pattern": "A->B",
@@ -8072,6 +16247,11 @@
     "grp2": ["X", "Y", "X", "Y", "X", "Y", "X", "Y", "X", "Y"],
     "grp3": ["Lo", "Mi", "Hi", "Lo", "Mi", "Hi", "Lo", "Mi", "Hi", "Lo", "Mi", "Hi", "Lo", "Mi", "Hi", "Lo", "Mi", "Hi", "Lo", "Mi", "Hi", "Lo", "Mi", "Hi", "Lo", "Mi", "Hi", "Lo", "Mi", "Hi"],
     "grp_unbal": ["Major", "Major", "Major", "Major", "Major", "Major", "Major", "Minor", "Minor", "Minor"],
-    "outcome": ["Pass", "Fail", "Pass", "Fail", "Pass", "Fail", "Pass", "Fail", "Pass", "Fail", "Pass", "Pass", "Fail", "Fail", "Pass", "Fail", "Pass", "Pass", "Fail", "Fail"]
+    "outcome": ["Pass", "Fail", "Pass", "Fail", "Pass", "Fail", "Pass", "Fail", "Pass", "Fail", "Pass", "Pass", "Fail", "Fail", "Pass", "Fail", "Pass", "Pass", "Fail", "Fail"],
+    "grp_d1": ["G1", "G2", "G1", "G2", "G1"],
+    "grp_d2": ["Alpha", "Beta", "Alpha", "Beta", "Alpha", "Beta", "Alpha", "Beta", "Alpha", "Beta", "Alpha", "Beta", "Alpha", "Beta", "Alpha", "Beta", "Alpha", "Beta", "Alpha", "Beta"],
+    "grp_d3": ["X", "Y", "Z", "X", "Y", "Z", "X", "Y", "Z", "X", "Y", "Z", "X", "Y", "Z"],
+    "grp_d6": ["A", "B", "A", "B", "A", "B"],
+    "grp_d4": ["Hi", "Lo", "Hi", "Lo", "Hi", "Lo", "Hi", "Lo", "Hi", "Lo"]
   }
 }

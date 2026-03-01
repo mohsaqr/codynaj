@@ -356,6 +356,82 @@ checkPatterns('d8_ng3', d8, 'pat_d8_ng3', { type: 'ngram', len: [3], minFreq: 1,
 checkPatterns('d8_gp1', d8, 'pat_d8_gp1', { type: 'gapped', gap: [1], minFreq: 1, minSupport: 0 });
 checkPatterns('d8_rp2', d8, 'pat_d8_rp2', { type: 'repeated', len: [2], minFreq: 1, minSupport: 0 });
 
+// ── D1 patterns (5×8, 3 states, NAs) ─────────────────────────────────
+
+checkPatterns('d1_ng2', d1, 'pat_d1_ng2', { type: 'ngram', len: [2], minFreq: 1, minSupport: 0 });
+checkPatterns('d1_ng3', d1, 'pat_d1_ng3', { type: 'ngram', len: [3], minFreq: 1, minSupport: 0 });
+checkPatterns('d1_ng25', d1, 'pat_d1_ng25', { type: 'ngram', len: [2, 3, 4, 5], minFreq: 1, minSupport: 0 });
+checkPatterns('d1_gp1', d1, 'pat_d1_gp1', { type: 'gapped', gap: [1], minFreq: 1, minSupport: 0 });
+checkPatterns('d1_gp13', d1, 'pat_d1_gp13', { type: 'gapped', gap: [1, 2, 3], minFreq: 1, minSupport: 0 });
+checkPatterns('d1_rp2', d1, 'pat_d1_rp2', { type: 'repeated', len: [2], minFreq: 1, minSupport: 0 });
+checkPatterns('d1_rp24', d1, 'pat_d1_rp24', { type: 'repeated', len: [2, 3, 4], minFreq: 1, minSupport: 0 });
+
+// ── D2 patterns (20×10, 3 states, NAs) ───────────────────────────────
+
+checkPatterns('d2_ng2', d2, 'pat_d2_ng2', { type: 'ngram', len: [2], minFreq: 1, minSupport: 0 });
+checkPatterns('d2_ng3', d2, 'pat_d2_ng3', { type: 'ngram', len: [3], minFreq: 1, minSupport: 0 });
+checkPatterns('d2_ng4', d2, 'pat_d2_ng4', { type: 'ngram', len: [4], minFreq: 1, minSupport: 0 });
+checkPatterns('d2_gp12', d2, 'pat_d2_gp12', { type: 'gapped', gap: [1, 2], minFreq: 1, minSupport: 0 });
+checkPatterns('d2_rp23', d2, 'pat_d2_rp23', { type: 'repeated', len: [2, 3], minFreq: 1, minSupport: 0 });
+
+// ── D3 patterns (15×12, 5 states) ────────────────────────────────────
+
+checkPatterns('d3_ng2', d3, 'pat_d3_ng2', { type: 'ngram', len: [2], minFreq: 1, minSupport: 0 });
+checkPatterns('d3_ng3', d3, 'pat_d3_ng3', { type: 'ngram', len: [3], minFreq: 1, minSupport: 0 });
+checkPatterns('d3_ng4', d3, 'pat_d3_ng4', { type: 'ngram', len: [4], minFreq: 1, minSupport: 0 });
+checkPatterns('d3_gp12', d3, 'pat_d3_gp12', { type: 'gapped', gap: [1, 2], minFreq: 1, minSupport: 0 });
+checkPatterns('d3_rp23', d3, 'pat_d3_rp23', { type: 'repeated', len: [2, 3], minFreq: 1, minSupport: 0 });
+
+// ── D4 patterns (10×6, 2 states) ─────────────────────────────────────
+
+checkPatterns('d4_ng2', d4, 'pat_d4_ng2', { type: 'ngram', len: [2], minFreq: 1, minSupport: 0 });
+checkPatterns('d4_ng3', d4, 'pat_d4_ng3', { type: 'ngram', len: [3], minFreq: 1, minSupport: 0 });
+checkPatterns('d4_ng4', d4, 'pat_d4_ng4', { type: 'ngram', len: [4], minFreq: 1, minSupport: 0 });
+checkPatterns('d4_gp12', d4, 'pat_d4_gp12', { type: 'gapped', gap: [1, 2], minFreq: 1, minSupport: 0 });
+checkPatterns('d4_rp24', d4, 'pat_d4_rp24', { type: 'repeated', len: [2, 3, 4], minFreq: 1, minSupport: 0 });
+
+// ── D5 patterns (8×10, heavy NAs) ────────────────────────────────────
+
+checkPatterns('d5_ng2', d5, 'pat_d5_ng2', { type: 'ngram', len: [2], minFreq: 1, minSupport: 0 });
+checkPatterns('d5_ng3', d5, 'pat_d5_ng3', { type: 'ngram', len: [3], minFreq: 1, minSupport: 0 });
+checkPatterns('d5_gp1', d5, 'pat_d5_gp1', { type: 'gapped', gap: [1], minFreq: 1, minSupport: 0 });
+checkPatterns('d5_rp2', d5, 'pat_d5_rp2', { type: 'repeated', len: [2], minFreq: 1, minSupport: 0 });
+
+// ── D6 patterns (6×15, emergent-triggering) ──────────────────────────
+
+checkPatterns('d6_ng2', d6, 'pat_d6_ng2', { type: 'ngram', len: [2], minFreq: 1, minSupport: 0 });
+checkPatterns('d6_ng3', d6, 'pat_d6_ng3', { type: 'ngram', len: [3], minFreq: 1, minSupport: 0 });
+checkPatterns('d6_ng5', d6, 'pat_d6_ng5', { type: 'ngram', len: [5], minFreq: 1, minSupport: 0 });
+checkPatterns('d6_gp13', d6, 'pat_d6_gp13', { type: 'gapped', gap: [1, 2, 3], minFreq: 1, minSupport: 0 });
+checkPatterns('d6_rp25', d6, 'pat_d6_rp25', { type: 'repeated', len: [2, 3, 4, 5], minFreq: 1, minSupport: 0 });
+
+// ── D7 patterns (4×6, constant sequences) ────────────────────────────
+
+checkPatterns('d7_ng2', d7, 'pat_d7_ng2', { type: 'ngram', len: [2], minFreq: 1, minSupport: 0 });
+checkPatterns('d7_rp26', d7, 'pat_d7_rp26', { type: 'repeated', len: [2, 3, 4, 5, 6], minFreq: 1, minSupport: 0 });
+
+// ── More custom pattern searches ─────────────────────────────────────
+
+checkPatterns('custom_CwwwA', pd, 'pat_custom_CwwwA', { pattern: 'C->*->*->*->A', minFreq: 1, minSupport: 0 });
+checkPatterns('custom_AwBwC', pd, 'pat_custom_AwBwC', { pattern: 'A->*->B->*->C', minFreq: 1, minSupport: 0 });
+checkPatterns('d6_custom_AwA', d6, 'pat_d6_custom_AwA', { pattern: 'A->*->A', minFreq: 1, minSupport: 0 });
+checkPatterns('d6_custom_BwwB', d6, 'pat_d6_custom_BwwB', { pattern: 'B->*->*->B', minFreq: 1, minSupport: 0 });
+checkPatterns('d6_custom_AwwwC', d6, 'pat_d6_custom_AwwwC', { pattern: 'A->*->*->*->C', minFreq: 1, minSupport: 0 });
+checkPatterns('d6_custom_CwwA', d6, 'pat_d6_custom_CwwA', { pattern: 'C->*->*->A', minFreq: 1, minSupport: 0 });
+checkPatterns('d3_custom_HwW', d3, 'pat_d3_custom_HwW', { pattern: 'High->*->Work', minFreq: 1, minSupport: 0 });
+checkPatterns('d3_custom_LwwH', d3, 'pat_d3_custom_LwwH', { pattern: 'Low->*->*->High', minFreq: 1, minSupport: 0 });
+checkPatterns('d4_custom_OnwOff', d4, 'pat_d4_custom_OnwOff', { pattern: 'On->*->Off', minFreq: 1, minSupport: 0 });
+
+// ── Combined filters ─────────────────────────────────────────────────
+
+checkPatterns('startA_endC', pd, 'pat_startA_endC', { type: 'ngram', len: [3], minFreq: 1, minSupport: 0, start: ['A'], end: ['C'] });
+checkPatterns('containAB', pd, 'pat_containAB', { type: 'ngram', len: [3], minFreq: 1, minSupport: 0, contain: ['A', 'B'] });
+checkPatterns('startB_containC', pd, 'pat_startB_containC', { type: 'ngram', len: [3], minFreq: 1, minSupport: 0, start: ['B'], contain: ['C'] });
+checkPatterns('d3_startHigh', d3, 'pat_d3_startHigh', { type: 'ngram', len: [2], minFreq: 1, minSupport: 0, start: ['High'] });
+checkPatterns('d3_endWork', d3, 'pat_d3_endWork', { type: 'ngram', len: [2], minFreq: 1, minSupport: 0, end: ['Work'] });
+checkPatterns('d8_startP_endS', d8, 'pat_d8_startP_endS', { type: 'ngram', len: [3], minFreq: 1, minSupport: 0, start: ['P'], end: ['S'] });
+checkPatterns('d8_mf3_ms01', d8, 'pat_d8_mf3_ms01', { type: 'ngram', len: [2], minFreq: 3, minSupport: 0.1 });
+
 console.log(`  patterns: ${passes} passed, ${failures} failed so far`);
 
 // ══════════════════════════════════════════════════════════════════════
@@ -377,6 +453,42 @@ checkPatterns('grp3_d8', d8, 'pat_grp3_d8', {
 checkPatterns('grpU_ng2', pd, 'pat_grpU_ng2', {
   type: 'ngram', len: [2], minFreq: 1, minSupport: 0,
   group: ref.groups.grp_unbal,
+});
+
+// Grouped on D1
+checkPatterns('grp_d1', d1, 'pat_grp_d1', {
+  type: 'ngram', len: [2], minFreq: 1, minSupport: 0,
+  group: ref.groups.grp_d1,
+});
+
+// Grouped on D2
+checkPatterns('grp_d2', d2, 'pat_grp_d2', {
+  type: 'ngram', len: [2], minFreq: 1, minSupport: 0,
+  group: ref.groups.grp_d2,
+});
+
+// Grouped on D3 (3 groups, 5 states)
+checkPatterns('grp_d3', d3, 'pat_grp_d3', {
+  type: 'ngram', len: [2], minFreq: 1, minSupport: 0,
+  group: ref.groups.grp_d3,
+});
+
+// Grouped on D6
+checkPatterns('grp_d6', d6, 'pat_grp_d6', {
+  type: 'ngram', len: [2], minFreq: 1, minSupport: 0,
+  group: ref.groups.grp_d6,
+});
+
+// D8 grouped gapped
+checkPatterns('grp_d8_gp1', d8, 'pat_grp_d8_gp1', {
+  type: 'gapped', gap: [1], minFreq: 1, minSupport: 0,
+  group: ref.groups.grp3,
+});
+
+// D4 grouped multi-len
+checkPatterns('grp_d4', d4, 'pat_grp_d4', {
+  type: 'ngram', len: [2, 3], minFreq: 1, minSupport: 0,
+  group: ref.groups.grp_d4,
 });
 
 console.log(`  grouped: ${passes} passed, ${failures} failed so far`);
